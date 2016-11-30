@@ -1,0 +1,29 @@
+//
+//  BYMPrefixHeader.pch
+//  BYMFinancing
+//
+//  Created by Administrator on 2016/11/2.
+//  Copyright © 2016年 mac. All rights reserved.
+//
+
+#ifndef BYMPrefixHeader_pch
+#define BYMPrefixHeader_pch
+
+/**
+ *  各类头文件<.h文件>
+ */
+#import "BYMHeader.h"
+
+/**
+ *  宏定义
+ */
+#import "BYMDefinition.h"
+
+/**
+ *  接口:
+ */
+#import "UrlStrDefinition.h"
+
+#import "AppDelegate.h"
+
+#endif /* BYMPrefixHeader_pch */
