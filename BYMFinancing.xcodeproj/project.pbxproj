@@ -29,6 +29,10 @@
 		C37DC65E1DEE749F003424D6 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37DC64F1DEE749F003424D6 /* QRViewController.m */; };
 		C37DC65F1DEE749F003424D6 /* saomiaoxian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37DC6501DEE749F003424D6 /* saomiaoxian@3x.png */; };
 		C37DC6621DEE76D9003424D6 /* QRCodeInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37DC6611DEE76D9003424D6 /* QRCodeInfomationViewController.m */; };
+		C37DC6681DEECFCE003424D6 /* KLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37DC6671DEECFCE003424D6 /* KLineViewController.m */; };
+		C39F7E6B1DF003360080AC3D /* KLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E6A1DF003360080AC3D /* KLineView.m */; };
+		C39F7E6E1DF0197D0080AC3D /* DrawKLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */; };
+		C39F7E711DF01E430080AC3D /* JQKTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */; };
 		C531B82E1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B82D1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m */; };
 		C531B8311DD1753900B058A7 /* FindTrendPassWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B8301DD1753900B058A7 /* FindTrendPassWordController.m */; };
 		C531B8371DD19CD900B058A7 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B8361DD19CD900B058A7 /* RegistViewController.m */; };
@@ -164,6 +168,14 @@
 		C37DC6501DEE749F003424D6 /* saomiaoxian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saomiaoxian@3x.png"; sourceTree = "<group>"; };
 		C37DC6601DEE76D9003424D6 /* QRCodeInfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeInfomationViewController.h; sourceTree = "<group>"; };
 		C37DC6611DEE76D9003424D6 /* QRCodeInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeInfomationViewController.m; sourceTree = "<group>"; };
+		C37DC6661DEECFCE003424D6 /* KLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineViewController.h; sourceTree = "<group>"; };
+		C37DC6671DEECFCE003424D6 /* KLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLineViewController.m; sourceTree = "<group>"; };
+		C39F7E691DF003360080AC3D /* KLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineView.h; sourceTree = "<group>"; };
+		C39F7E6A1DF003360080AC3D /* KLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLineView.m; sourceTree = "<group>"; };
+		C39F7E6C1DF0197D0080AC3D /* DrawKLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawKLineViewController.h; sourceTree = "<group>"; };
+		C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawKLineViewController.m; sourceTree = "<group>"; };
+		C39F7E6F1DF01E430080AC3D /* JQKTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKTimeLineView.h; sourceTree = "<group>"; };
+		C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKTimeLineView.m; sourceTree = "<group>"; };
 		C531B82C1DD15F3A00B058A7 /* ForgetTradePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetTradePasswordViewController.h; sourceTree = "<group>"; };
 		C531B82D1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetTradePasswordViewController.m; sourceTree = "<group>"; };
 		C531B82F1DD1753900B058A7 /* FindTrendPassWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTrendPassWordController.h; sourceTree = "<group>"; };
@@ -392,6 +404,7 @@
 		C37DC6371DEE7438003424D6 /* FunctionPlate */ = {
 			isa = PBXGroup;
 			children = (
+				C39F7E681DF002C90080AC3D /* KLineDemo */,
 				C37DC6381DEE749F003424D6 /* QR_CodeDemo */,
 			);
 			path = FunctionPlate;
@@ -433,6 +446,19 @@
 				C37DC63F1DEE749F003424D6 /* faces6.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		C39F7E681DF002C90080AC3D /* KLineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C39F7E691DF003360080AC3D /* KLineView.h */,
+				C39F7E6A1DF003360080AC3D /* KLineView.m */,
+				C39F7E6C1DF0197D0080AC3D /* DrawKLineViewController.h */,
+				C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */,
+				C39F7E6F1DF01E430080AC3D /* JQKTimeLineView.h */,
+				C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */,
+			);
+			path = KLineDemo;
 			sourceTree = "<group>";
 		};
 		C537CEC01DCC585F00DCCFAE /* LoginAndRegist Pages */ = {
@@ -594,6 +620,8 @@
 				C53EFE1C1DC870CA0049FC4B /* TotTopicRecommendViewController.m */,
 				C37DC6601DEE76D9003424D6 /* QRCodeInfomationViewController.h */,
 				C37DC6611DEE76D9003424D6 /* QRCodeInfomationViewController.m */,
+				C37DC6661DEECFCE003424D6 /* KLineViewController.h */,
+				C37DC6671DEECFCE003424D6 /* KLineViewController.m */,
 				C53C92831DC9B747001325C0 /* RiskViewController.h */,
 				C53C92841DC9B747001325C0 /* RiskViewController.m */,
 				C53C92861DC9B769001325C0 /* ProtectViewController.h */,
@@ -1127,6 +1155,7 @@
 				C531B8431DD1ABF100B058A7 /* MyGradeHeadView.m in Sources */,
 				C54B40E41DD06A29005160ED /* MyInvestViewController.m in Sources */,
 				C53C92931DC9C1C5001325C0 /* SystemNoticeViewController.m in Sources */,
+				C39F7E711DF01E430080AC3D /* JQKTimeLineView.m in Sources */,
 				C53C92631DC9B2A5001325C0 /* UIViewExt.m in Sources */,
 				C531B8551DD1BB9D00B058A7 /* TransactionDetailViewController.m in Sources */,
 				C37DC6621DEE76D9003424D6 /* QRCodeInfomationViewController.m in Sources */,
@@ -1139,6 +1168,7 @@
 				C37DC6591DEE749F003424D6 /* MJQQRCodeGenerate.m in Sources */,
 				C537CEBF1DCC313200DCCFAE /* InviteViewController.m in Sources */,
 				C3592B401DCB08EF00D73D43 /* UINavigationBar+BackgroundColor.m in Sources */,
+				C39F7E6B1DF003360080AC3D /* KLineView.m in Sources */,
 				C531B84F1DD1AFB900B058A7 /* KACircleProgressView.m in Sources */,
 				C3592B3A1DCADBF800D73D43 /* NSString+BYM.m in Sources */,
 				C54B40E51DD06A29005160ED /* PersonalCenterViewController.m in Sources */,
@@ -1152,6 +1182,7 @@
 				C53C92501DC992D5001325C0 /* BYMBaseLabel.m in Sources */,
 				C53C92991DC9C25B001325C0 /* SystemNoticeModel.m in Sources */,
 				C531B8371DD19CD900B058A7 /* RegistViewController.m in Sources */,
+				C37DC6681DEECFCE003424D6 /* KLineViewController.m in Sources */,
 				C537CEC31DCC588800DCCFAE /* LogInViewController.m in Sources */,
 				C53C92851DC9B747001325C0 /* RiskViewController.m in Sources */,
 				C53EFE321DC890D00049FC4B /* BYMNavgationController.m in Sources */,
@@ -1172,6 +1203,7 @@
 				C53C928B1DC9B77C001325C0 /* AboutBaiYiMaoViewController.m in Sources */,
 				C531B8461DD1ACBB00B058A7 /* GradeProgressBar.m in Sources */,
 				C53C92881DC9B769001325C0 /* ProtectViewController.m in Sources */,
+				C39F7E6E1DF0197D0080AC3D /* DrawKLineViewController.m in Sources */,
 				C53EFE1D1DC870CA0049FC4B /* TotTopicRecommendViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

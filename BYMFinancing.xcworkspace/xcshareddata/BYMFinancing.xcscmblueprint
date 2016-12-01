@@ -1,14 +1,17 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7264B905F144848D0D8BED3C7EBC6D0440FF2E8D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "3f845ed1-1f81-5544-b2fd-128c20537699++9202" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7264B905F144848D0D8BED3C7EBC6D0440FF2E8D" : 9223372036854775807,
     "3f845ed1-1f81-5544-b2fd-128c20537699++9202" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1CCC6AD-5B7B-4F57-BB18-2CB8179CAAB5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7264B905F144848D0D8BED3C7EBC6D0440FF2E8D" : "KnowledgeCollection\/",
     "3f845ed1-1f81-5544-b2fd-128c20537699++9202" : "BYMFinancing(%E9%A1%B9%E7%9B%AE)\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "BYMFinancing",
@@ -19,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.200\/svn\/baiyimao",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3f845ed1-1f81-5544-b2fd-128c20537699++9202"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Mygirls\/KnowledgeCollect.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7264B905F144848D0D8BED3C7EBC6D0440FF2E8D"
     }
   ]
 }

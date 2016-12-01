@@ -8,7 +8,7 @@
 
 #import "TotTopicRecommendViewController.h"
 #import "QRCodeInfomationViewController.h"
-
+#import "KLineViewController.h"
 @interface TotTopicRecommendViewController ()
 
 @end
@@ -25,6 +25,7 @@
     self.title = @"首页";
     
     [self QRCode];
+    [self KLineView];
     
 }
 
@@ -46,4 +47,22 @@
 
 }
 
+
+- (void)KLineView
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 150, 160, 40);
+    [button setTitle:@"K 线图" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(KLineViewAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)KLineViewAction:(UIButton *)btn
+{
+    KLineViewController *qrcodeInfoVC = [[KLineViewController alloc]init];
+    [self.navigationController pushViewController:qrcodeInfoVC animated:YES];
+    
+}
 @end
