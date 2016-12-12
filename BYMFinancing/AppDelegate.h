@@ -13,5 +13,7 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic,assign)NSInteger status;//当前网络状态
 
+
+
 @end
 

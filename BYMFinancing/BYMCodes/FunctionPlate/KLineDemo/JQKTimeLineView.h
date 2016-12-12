@@ -10,4 +10,7 @@
 
 @interface JQKTimeLineView : UIView
 
+
+- (instancetype)initWithTimeLineModels:(NSArray *)models;
+
 @end

@@ -22,6 +22,7 @@
 #import "UILabel+LXAdd.h"
 #import "UIView+UIViewController.h"
 #import "UINavigationBar+BackgroundColor.h"
+#import "BYMNavgationController.h"
 
 /**
  *第三方头文件

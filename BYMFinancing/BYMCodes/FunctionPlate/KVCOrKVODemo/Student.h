@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Course.h"
 @interface Student : NSObject
+{
+    NSString *name;
+    
+    Course *course;
+    
+    NSInteger point;
 
+    NSArray *otherStudent;
+
+}
+
+@property(nonatomic,copy)NSString *testKVOValue;
 @end

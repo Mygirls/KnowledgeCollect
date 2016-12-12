@@ -9,5 +9,12 @@
 #import "JQKLineVolumePositionModel.h"
 
 @implementation JQKLineVolumePositionModel
-
++ (instancetype) modelWithStartPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint dayDesc:(NSString *)dayDesc;
+{
+    JQKLineVolumePositionModel *volumePositionModel = [JQKLineVolumePositionModel new];
+    volumePositionModel.StartPoint = startPoint;
+    volumePositionModel.EndPoint = endPoint;
+    volumePositionModel.DayDesc = dayDesc;
+    return volumePositionModel;
+}
 @end

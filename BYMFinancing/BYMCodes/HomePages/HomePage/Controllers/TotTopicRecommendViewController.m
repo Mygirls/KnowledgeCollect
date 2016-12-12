@@ -9,8 +9,11 @@
 #import "TotTopicRecommendViewController.h"
 #import "QRCodeInfomationViewController.h"
 #import "KLineViewController.h"
+#import "KVCViewController.h"
+#import "TestView.h"
 @interface TotTopicRecommendViewController ()
 
+@property(nonatomic,strong)TestView *testView;
 @end
 
 @implementation TotTopicRecommendViewController
@@ -26,7 +29,8 @@
     
     [self QRCode];
     [self KLineView];
-    
+    [self KVCView];
+    [self test];
 }
 
 - (void)QRCode
@@ -65,4 +69,46 @@
     [self.navigationController pushViewController:qrcodeInfoVC animated:YES];
     
 }
+
+
+
+- (void)KVCView
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 200, 160, 40);
+    [button setTitle:@"KVC／KVO" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(KVCViewAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)KVCViewAction:(UIButton *)btn
+{
+    KVCViewController *kvcVC = [[KVCViewController alloc]init];
+    [self.navigationController pushViewController:kvcVC animated:YES];
+    
+}
+
+- (void)test
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 250, 160, 40);
+    [button setTitle:@"test" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(testAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)testAction:(UIButton *)btn
+{
+
+    TestView *testView = [[TestView alloc]initWithFrame:CGRectMake(0, 300, KScreen_Width, 300)];
+    testView.backgroundColor = [UIColor grayColor];
+
+    [self.view addSubview:testView];
+}
+
+
 @end

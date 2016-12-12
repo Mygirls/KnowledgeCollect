@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface JQKLinePartLineView : UIView
+@property (nonatomic, strong) NSMutableArray *drawPositionModels;//位置数组
+
+- (NSArray *)drawViewWithXPosition:(CGFloat)xPosition drawModels:(NSArray *)drawLineModels  maxValue:(CGFloat)maxValue minValue:(CGFloat)minValue ;
 
 @end

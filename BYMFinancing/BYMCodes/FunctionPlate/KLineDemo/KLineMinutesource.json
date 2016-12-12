@@ -1,0 +1,2660 @@
+
+//这不是json格式
+{
+    minutes =     (
+                   {
+                   amount = 542120;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-0";
+                   index = 0;
+                   minute = 570;
+                   price = "1085.809";
+                   volume = 95000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 207270;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-1";
+                   index = 1;
+                   minute = 571;
+                   price = "1085.513";
+                   volume = 40000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 299920;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-2";
+                   index = 2;
+                   minute = 572;
+                   price = "1085.403";
+                   volume = 79000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 986110;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-3";
+                   index = 3;
+                   minute = 573;
+                   price = "1085.357";
+                   volume = 103000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 619570;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-4";
+                   index = 4;
+                   minute = 574;
+                   price = "1085.431";
+                   volume = 84000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 849640;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-5";
+                   index = 5;
+                   minute = 575;
+                   price = "1085.41";
+                   volume = 79000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1114400;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-6";
+                   index = 6;
+                   minute = 576;
+                   price = "1085.367";
+                   volume = 96000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 285610;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-7";
+                   index = 7;
+                   minute = 577;
+                   price = "1085.473";
+                   volume = 36000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 356090;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-8";
+                   index = 8;
+                   minute = 578;
+                   price = "1085.32";
+                   volume = 54000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1037280;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-9";
+                   index = 9;
+                   minute = 579;
+                   price = "1085.18";
+                   volume = 143000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 326110;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-10";
+                   index = 10;
+                   minute = 580;
+                   price = "1085.092";
+                   volume = 51000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1530210;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-11";
+                   index = 11;
+                   minute = 581;
+                   price = "1085.163";
+                   volume = 223000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1292270;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-12";
+                   index = 12;
+                   minute = 582;
+                   price = "1085.148";
+                   volume = 185000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1267180;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-13";
+                   index = 13;
+                   minute = 583;
+                   price = "1085.195";
+                   volume = 208000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 402620;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-14";
+                   index = 14;
+                   minute = 584;
+                   price = "1085.256";
+                   volume = 82000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 376010;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-15";
+                   index = 15;
+                   minute = 585;
+                   price = "1085.377";
+                   volume = 50000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 705170;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-16";
+                   index = 16;
+                   minute = 586;
+                   price = "1085.324";
+                   volume = 180000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 924130;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-17";
+                   index = 17;
+                   minute = 587;
+                   price = "1085.354";
+                   volume = 133000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2168220;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-18";
+                   index = 18;
+                   minute = 588;
+                   price = "1085.305";
+                   volume = 775000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 991850;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-19";
+                   index = 19;
+                   minute = 589;
+                   price = "1085.332";
+                   volume = 220000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2001450;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-20";
+                   index = 20;
+                   minute = 590;
+                   price = "1085.22";
+                   volume = 268000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 945380;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-21";
+                   index = 21;
+                   minute = 591;
+                   price = "1085.034";
+                   volume = 202000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1797410;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-22";
+                   index = 22;
+                   minute = 592;
+                   price = "1085.091";
+                   volume = 581000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 894490;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-23";
+                   index = 23;
+                   minute = 593;
+                   price = "1085.123";
+                   volume = 393000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1433350;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-24";
+                   index = 24;
+                   minute = 594;
+                   price = "1085.179";
+                   volume = 320000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1499100;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-25";
+                   index = 25;
+                   minute = 595;
+                   price = "1085.19";
+                   volume = 292000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 817090;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-26";
+                   index = 26;
+                   minute = 596;
+                   price = "1085.136";
+                   volume = 117000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 479110;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-27";
+                   index = 27;
+                   minute = 597;
+                   price = "1085.204";
+                   volume = 94000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 518690;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-28";
+                   index = 28;
+                   minute = 598;
+                   price = "1085.163";
+                   volume = 125000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1226420;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-29";
+                   index = 29;
+                   minute = 599;
+                   price = "1085.068";
+                   volume = 192000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 970630;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-30";
+                   index = 30;
+                   minute = 600;
+                   price = "1085.012";
+                   volume = 134000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 568550;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-31";
+                   index = 31;
+                   minute = 601;
+                   price = "1084.851";
+                   volume = 116000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 370520;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-32";
+                   index = 32;
+                   minute = 602;
+                   price = "1084.917";
+                   volume = 36000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1355970;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-33";
+                   index = 33;
+                   minute = 603;
+                   price = "1084.914";
+                   volume = 193000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1038390;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-34";
+                   index = 34;
+                   minute = 604;
+                   price = "1085.008";
+                   volume = 107000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1311630;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-35";
+                   index = 35;
+                   minute = 605;
+                   price = "1084.912";
+                   volume = 365000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 729320;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-36";
+                   index = 36;
+                   minute = 606;
+                   price = "1084.853";
+                   volume = 92000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1282405;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-37";
+                   index = 37;
+                   minute = 607;
+                   price = "1084.791";
+                   volume = 194600;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1437950;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-38";
+                   index = 38;
+                   minute = 608;
+                   price = "1084.906";
+                   volume = 193000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 768650;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-39";
+                   index = 39;
+                   minute = 609;
+                   price = "1084.849";
+                   volume = 124000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 747350;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-40";
+                   index = 40;
+                   minute = 610;
+                   price = "1084.836";
+                   volume = 177000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 658460;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-41";
+                   index = 41;
+                   minute = 611;
+                   price = "1084.791";
+                   volume = 102000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1343130;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-42";
+                   index = 42;
+                   minute = 612;
+                   price = "1084.936";
+                   volume = 170000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1223740;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-43";
+                   index = 43;
+                   minute = 613;
+                   price = "1084.872";
+                   volume = 61000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1239920;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-44";
+                   index = 44;
+                   minute = 614;
+                   price = "1084.832";
+                   volume = 165000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 402260;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-45";
+                   index = 45;
+                   minute = 615;
+                   price = "1084.834";
+                   volume = 39000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 958330;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-46";
+                   index = 46;
+                   minute = 616;
+                   price = "1084.763";
+                   volume = 262000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 956120;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-47";
+                   index = 47;
+                   minute = 617;
+                   price = "1084.726";
+                   volume = 355000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1807760;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-48";
+                   index = 48;
+                   minute = 618;
+                   price = "1084.645";
+                   volume = 486000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1290580;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-49";
+                   index = 49;
+                   minute = 619;
+                   price = "1084.601";
+                   volume = 262000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 184440;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-50";
+                   index = 50;
+                   minute = 620;
+                   price = "1084.556";
+                   volume = 31000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1090450;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-51";
+                   index = 51;
+                   minute = 621;
+                   price = "1084.609";
+                   volume = 137000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2006910;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-52";
+                   index = 52;
+                   minute = 622;
+                   price = "1084.566";
+                   volume = 226000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1449400;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-53";
+                   index = 53;
+                   minute = 623;
+                   price = "1084.496";
+                   volume = 180000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1280690;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-54";
+                   index = 54;
+                   minute = 624;
+                   price = "1084.438";
+                   volume = 196000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1116680;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-55";
+                   index = 55;
+                   minute = 625;
+                   price = "1084.276";
+                   volume = 121000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 967430;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-56";
+                   index = 56;
+                   minute = 626;
+                   price = "1084.329";
+                   volume = 102000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1230800;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-57";
+                   index = 57;
+                   minute = 627;
+                   price = "1084.229";
+                   volume = 145000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 623050;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-58";
+                   index = 58;
+                   minute = 628;
+                   price = "1084.174";
+                   volume = 55000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1201100;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-59";
+                   index = 59;
+                   minute = 629;
+                   price = "1084.266";
+                   volume = 120000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 535550;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-60";
+                   index = 60;
+                   minute = 630;
+                   price = "1084.306";
+                   volume = 47000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1410180;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-61";
+                   index = 61;
+                   minute = 631;
+                   price = "1084.387";
+                   volume = 144000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 701720;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-62";
+                   index = 62;
+                   minute = 632;
+                   price = "1084.4";
+                   volume = 125000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1069630;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-63";
+                   index = 63;
+                   minute = 633;
+                   price = "1084.496";
+                   volume = 280000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1251398;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-64";
+                   index = 64;
+                   minute = 634;
+                   price = "1084.533";
+                   volume = 153690;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 6247270;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-65";
+                   index = 65;
+                   minute = 635;
+                   price = "1084.479";
+                   volume = 699000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2567500;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-66";
+                   index = 66;
+                   minute = 636;
+                   price = "1084.227";
+                   volume = 306000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 873230;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-67";
+                   index = 67;
+                   minute = 637;
+                   price = "1084.203";
+                   volume = 133000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 415730;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-68";
+                   index = 68;
+                   minute = 638;
+                   price = "1084.169";
+                   volume = 67000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 658040;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-69";
+                   index = 69;
+                   minute = 639;
+                   price = "1084.239";
+                   volume = 68000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 212710;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-70";
+                   index = 70;
+                   minute = 640;
+                   price = "1084.191";
+                   volume = 17000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 307250;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-71";
+                   index = 71;
+                   minute = 641;
+                   price = "1084.172";
+                   volume = 44000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 368750;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-72";
+                   index = 72;
+                   minute = 642;
+                   price = "1084.139";
+                   volume = 63000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 964700;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-73";
+                   index = 73;
+                   minute = 643;
+                   price = "1084.079";
+                   volume = 114000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2142680;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-74";
+                   index = 74;
+                   minute = 644;
+                   price = "1084.085";
+                   volume = 296000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1169740;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-75";
+                   index = 75;
+                   minute = 645;
+                   price = "1084.094";
+                   volume = 250000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1277430;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-76";
+                   index = 76;
+                   minute = 646;
+                   price = "1084.023";
+                   volume = 174000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2638634;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-77";
+                   index = 77;
+                   minute = 647;
+                   price = "1083.902";
+                   volume = 379946;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1200440;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-78";
+                   index = 78;
+                   minute = 648;
+                   price = "1083.807";
+                   volume = 186000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1281530;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-79";
+                   index = 79;
+                   minute = 649;
+                   price = "1083.842";
+                   volume = 191000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1446520;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-80";
+                   index = 80;
+                   minute = 650;
+                   price = "1083.89";
+                   volume = 248000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 802870;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-81";
+                   index = 81;
+                   minute = 651;
+                   price = "1083.859";
+                   volume = 155000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 928710;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-82";
+                   index = 82;
+                   minute = 652;
+                   price = "1083.763";
+                   volume = 145000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 870200;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-83";
+                   index = 83;
+                   minute = 653;
+                   price = "1083.692";
+                   volume = 131000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 485480;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-84";
+                   index = 84;
+                   minute = 654;
+                   price = "1083.826";
+                   volume = 78000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 782020;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-85";
+                   index = 85;
+                   minute = 655;
+                   price = "1083.769";
+                   volume = 124000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 817380;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-86";
+                   index = 86;
+                   minute = 656;
+                   price = "1083.736";
+                   volume = 153000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 828460;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-87";
+                   index = 87;
+                   minute = 657;
+                   price = "1083.783";
+                   volume = 139000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 790340;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-88";
+                   index = 88;
+                   minute = 658;
+                   price = "1083.702";
+                   volume = 119000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 666210;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-89";
+                   index = 89;
+                   minute = 659;
+                   price = "1083.796";
+                   volume = 83000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 996050;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-90";
+                   index = 90;
+                   minute = 660;
+                   price = "1083.775";
+                   volume = 198000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1456140;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-91";
+                   index = 91;
+                   minute = 661;
+                   price = "1083.792";
+                   volume = 231000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 6342330;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-92";
+                   index = 92;
+                   minute = 662;
+                   price = "1083.706";
+                   volume = 1057500;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1540370;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-93";
+                   index = 93;
+                   minute = 663;
+                   price = "1083.681";
+                   volume = 253000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 994790;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-94";
+                   index = 94;
+                   minute = 664;
+                   price = "1083.69";
+                   volume = 170000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 513570;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-95";
+                   index = 95;
+                   minute = 665;
+                   price = "1083.804";
+                   volume = 69000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 533150;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-96";
+                   index = 96;
+                   minute = 666;
+                   price = "1083.839";
+                   volume = 94000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1011870;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-97";
+                   index = 97;
+                   minute = 667;
+                   price = "1083.657";
+                   volume = 126000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1869250;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-98";
+                   index = 98;
+                   minute = 668;
+                   price = "1083.681";
+                   volume = 169000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1869390;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-99";
+                   index = 99;
+                   minute = 669;
+                   price = "1083.682";
+                   volume = 165000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 161430;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-100";
+                   index = 100;
+                   minute = 670;
+                   price = "1083.657";
+                   volume = 25000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 860380;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-101";
+                   index = 101;
+                   minute = 671;
+                   price = "1083.706";
+                   volume = 240000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 657830;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-102";
+                   index = 102;
+                   minute = 672;
+                   price = "1083.728";
+                   volume = 109000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 616410;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-103";
+                   index = 103;
+                   minute = 673;
+                   price = "1083.617";
+                   volume = 156000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 756910;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-104";
+                   index = 104;
+                   minute = 674;
+                   price = "1083.647";
+                   volume = 78000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 550460;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-105";
+                   index = 105;
+                   minute = 675;
+                   price = "1083.66";
+                   volume = 89000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 450850;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-106";
+                   index = 106;
+                   minute = 676;
+                   price = "1083.661";
+                   volume = 80000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1834724;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-107";
+                   index = 107;
+                   minute = 677;
+                   price = "1083.646";
+                   volume = 481580;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 613410;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-108";
+                   index = 108;
+                   minute = 678;
+                   price = "1083.761";
+                   volume = 102000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 983247;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-109";
+                   index = 109;
+                   minute = 679;
+                   price = "1083.781";
+                   volume = 111250;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 899860;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-110";
+                   index = 110;
+                   minute = 680;
+                   price = "1083.792";
+                   volume = 148000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 826860;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-111";
+                   index = 111;
+                   minute = 681;
+                   price = "1083.84";
+                   volume = 130000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1102029;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-112";
+                   index = 112;
+                   minute = 682;
+                   price = "1083.815";
+                   volume = 157440;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 433630;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-113";
+                   index = 113;
+                   minute = 683;
+                   price = "1083.783";
+                   volume = 86000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 792470;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-114";
+                   index = 114;
+                   minute = 684;
+                   price = "1083.602";
+                   volume = 136000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 956600;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-115";
+                   index = 115;
+                   minute = 685;
+                   price = "1083.681";
+                   volume = 143000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 842880;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-116";
+                   index = 116;
+                   minute = 686;
+                   price = "1083.522";
+                   volume = 216000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 846010;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-117";
+                   index = 117;
+                   minute = 687;
+                   price = "1083.695";
+                   volume = 72000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 337310;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-118";
+                   index = 118;
+                   minute = 688;
+                   price = "1083.682";
+                   volume = 36000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 628460;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-119";
+                   index = 119;
+                   minute = 689;
+                   price = "1083.571";
+                   volume = 136000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2348480;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-120";
+                   index = 120;
+                   minute = 780;
+                   price = "1083.778";
+                   volume = 378400;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1483040;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-121";
+                   index = 121;
+                   minute = 781;
+                   price = "1083.696";
+                   volume = 152000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 614530;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-122";
+                   index = 122;
+                   minute = 782;
+                   price = "1083.594";
+                   volume = 90000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 667200;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-123";
+                   index = 123;
+                   minute = 783;
+                   price = "1083.613";
+                   volume = 91000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 252610;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-124";
+                   index = 124;
+                   minute = 784;
+                   price = "1083.61";
+                   volume = 57000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1713390;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-125";
+                   index = 125;
+                   minute = 785;
+                   price = "1083.51";
+                   volume = 239000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 336148;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-126";
+                   index = 126;
+                   minute = 786;
+                   price = "1083.551";
+                   volume = 40336;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 925670;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-127";
+                   index = 127;
+                   minute = 787;
+                   price = "1083.499";
+                   volume = 124000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 538300;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-128";
+                   index = 128;
+                   minute = 788;
+                   price = "1083.511";
+                   volume = 187000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 827570;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-129";
+                   index = 129;
+                   minute = 789;
+                   price = "1083.521";
+                   volume = 86000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2267070;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-130";
+                   index = 130;
+                   minute = 790;
+                   price = "1083.551";
+                   volume = 216000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1786030;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-131";
+                   index = 131;
+                   minute = 791;
+                   price = "1083.55";
+                   volume = 263000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1706560;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-132";
+                   index = 132;
+                   minute = 792;
+                   price = "1083.6";
+                   volume = 212000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1005555;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-133";
+                   index = 133;
+                   minute = 793;
+                   price = "1083.509";
+                   volume = 122500;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 561810;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-134";
+                   index = 134;
+                   minute = 794;
+                   price = "1083.554";
+                   volume = 92000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1018130;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-135";
+                   index = 135;
+                   minute = 795;
+                   price = "1083.503";
+                   volume = 110000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 685760;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-136";
+                   index = 136;
+                   minute = 796;
+                   price = "1083.518";
+                   volume = 103000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 663924;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-137";
+                   index = 137;
+                   minute = 797;
+                   price = "1083.474";
+                   volume = 122400;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1828070;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-138";
+                   index = 138;
+                   minute = 798;
+                   price = "1083.49";
+                   volume = 217400;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1680630;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-139";
+                   index = 139;
+                   minute = 799;
+                   price = "1083.438";
+                   volume = 137000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 15168940;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-140";
+                   index = 140;
+                   minute = 800;
+                   price = "1083.471";
+                   volume = 953000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 688900;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-141";
+                   index = 141;
+                   minute = 801;
+                   price = "1083.451";
+                   volume = 130000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 767700;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-142";
+                   index = 142;
+                   minute = 802;
+                   price = "1083.524";
+                   volume = 95000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 515560;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-143";
+                   index = 143;
+                   minute = 803;
+                   price = "1083.605";
+                   volume = 95000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1222930;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-144";
+                   index = 144;
+                   minute = 804;
+                   price = "1083.659";
+                   volume = 148000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 692990;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-145";
+                   index = 145;
+                   minute = 805;
+                   price = "1083.66";
+                   volume = 121000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 250350;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-146";
+                   index = 146;
+                   minute = 806;
+                   price = "1083.65";
+                   volume = 72000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 289050;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-147";
+                   index = 147;
+                   minute = 807;
+                   price = "1083.684";
+                   volume = 90000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 711540;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-148";
+                   index = 148;
+                   minute = 808;
+                   price = "1083.632";
+                   volume = 67800;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 739820;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-149";
+                   index = 149;
+                   minute = 809;
+                   price = "1083.672";
+                   volume = 135000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 954730;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-150";
+                   index = 150;
+                   minute = 810;
+                   price = "1083.687";
+                   volume = 184000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 810860;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-151";
+                   index = 151;
+                   minute = 811;
+                   price = "1083.718";
+                   volume = 158500;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 872510;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-152";
+                   index = 152;
+                   minute = 812;
+                   price = "1083.703";
+                   volume = 304000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1255070;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-153";
+                   index = 153;
+                   minute = 813;
+                   price = "1083.683";
+                   volume = 163000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 816230;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-154";
+                   index = 154;
+                   minute = 814;
+                   price = "1083.685";
+                   volume = 135000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 326860;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-155";
+                   index = 155;
+                   minute = 815;
+                   price = "1083.803";
+                   volume = 58000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 885550;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-156";
+                   index = 156;
+                   minute = 816;
+                   price = "1083.69";
+                   volume = 186000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1803240;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-157";
+                   index = 157;
+                   minute = 817;
+                   price = "1083.749";
+                   volume = 139000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1037780;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-158";
+                   index = 158;
+                   minute = 818;
+                   price = "1083.799";
+                   volume = 190000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 465570;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-159";
+                   index = 159;
+                   minute = 819;
+                   price = "1083.813";
+                   volume = 103000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 964050;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-160";
+                   index = 160;
+                   minute = 820;
+                   price = "1083.782";
+                   volume = 154000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1318015;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-161";
+                   index = 161;
+                   minute = 821;
+                   price = "1083.713";
+                   volume = 187500;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 565780;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-162";
+                   index = 162;
+                   minute = 822;
+                   price = "1083.591";
+                   volume = 97000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1163110;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-163";
+                   index = 163;
+                   minute = 823;
+                   price = "1083.626";
+                   volume = 161000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2471220;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-164";
+                   index = 164;
+                   minute = 824;
+                   price = "1083.491";
+                   volume = 141000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1064200;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-165";
+                   index = 165;
+                   minute = 825;
+                   price = "1083.515";
+                   volume = 123000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1324930;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-166";
+                   index = 166;
+                   minute = 826;
+                   price = "1083.497";
+                   volume = 215000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 3064150;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-167";
+                   index = 167;
+                   minute = 827;
+                   price = "1083.464";
+                   volume = 289000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 949240;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-168";
+                   index = 168;
+                   minute = 828;
+                   price = "1083.478";
+                   volume = 144000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 934600;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-169";
+                   index = 169;
+                   minute = 829;
+                   price = "1083.499";
+                   volume = 148000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 816680;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-170";
+                   index = 170;
+                   minute = 830;
+                   price = "1083.53";
+                   volume = 112000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1154680;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-171";
+                   index = 171;
+                   minute = 831;
+                   price = "1083.588";
+                   volume = 83800;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 360810;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-172";
+                   index = 172;
+                   minute = 832;
+                   price = "1083.57";
+                   volume = 99000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 647130;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-173";
+                   index = 173;
+                   minute = 833;
+                   price = "1083.662";
+                   volume = 194000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 355970;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-174";
+                   index = 174;
+                   minute = 834;
+                   price = "1083.663";
+                   volume = 55000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 601490;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-175";
+                   index = 175;
+                   minute = 835;
+                   price = "1083.679";
+                   volume = 91000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 301510;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-176";
+                   index = 176;
+                   minute = 836;
+                   price = "1083.579";
+                   volume = 28000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 418240;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-177";
+                   index = 177;
+                   minute = 837;
+                   price = "1083.562";
+                   volume = 64000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 587280;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-178";
+                   index = 178;
+                   minute = 838;
+                   price = "1083.537";
+                   volume = 63000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 418570;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-179";
+                   index = 179;
+                   minute = 839;
+                   price = "1083.695";
+                   volume = 100000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1466670;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-180";
+                   index = 180;
+                   minute = 840;
+                   price = "1083.715";
+                   volume = 111000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 446370;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-181";
+                   index = 181;
+                   minute = 841;
+                   price = "1083.609";
+                   volume = 88000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1395190;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-182";
+                   index = 182;
+                   minute = 842;
+                   price = "1083.789";
+                   volume = 98000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 897540;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-183";
+                   index = 183;
+                   minute = 843;
+                   price = "1083.867";
+                   volume = 86000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 911880;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-184";
+                   index = 184;
+                   minute = 844;
+                   price = "1083.742";
+                   volume = 128000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1261890;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-185";
+                   index = 185;
+                   minute = 845;
+                   price = "1083.764";
+                   volume = 199000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1519610;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-186";
+                   index = 186;
+                   minute = 846;
+                   price = "1083.749";
+                   volume = 291000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2523240;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-187";
+                   index = 187;
+                   minute = 847;
+                   price = "1083.754";
+                   volume = 577000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 956840;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-188";
+                   index = 188;
+                   minute = 848;
+                   price = "1083.694";
+                   volume = 183000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 588860;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-189";
+                   index = 189;
+                   minute = 849;
+                   price = "1083.728";
+                   volume = 108000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 859430;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-190";
+                   index = 190;
+                   minute = 850;
+                   price = "1083.689";
+                   volume = 156000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1242720;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-191";
+                   index = 191;
+                   minute = 851;
+                   price = "1083.705";
+                   volume = 138000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 9521920;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-192";
+                   index = 192;
+                   minute = 852;
+                   price = "1083.534";
+                   volume = 571000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 468610;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-193";
+                   index = 193;
+                   minute = 853;
+                   price = "1083.398";
+                   volume = 38000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 9233310;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-194";
+                   index = 194;
+                   minute = 854;
+                   price = "1083.445";
+                   volume = 449000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1032860;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-195";
+                   index = 195;
+                   minute = 855;
+                   price = "1083.406";
+                   volume = 194000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1529280;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-196";
+                   index = 196;
+                   minute = 856;
+                   price = "1083.471";
+                   volume = 328000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1842440;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-197";
+                   index = 197;
+                   minute = 857;
+                   price = "1083.523";
+                   volume = 426000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 734520;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-198";
+                   index = 198;
+                   minute = 858;
+                   price = "1083.359";
+                   volume = 115000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 950360;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-199";
+                   index = 199;
+                   minute = 859;
+                   price = "1083.259";
+                   volume = 147000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1148554;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-200";
+                   index = 200;
+                   minute = 860;
+                   price = "1083.164";
+                   volume = 181078;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 520670;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-201";
+                   index = 201;
+                   minute = 861;
+                   price = "1083.327";
+                   volume = 110600;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1058750;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-202";
+                   index = 202;
+                   minute = 862;
+                   price = "1083.401";
+                   volume = 157000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 841570;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-203";
+                   index = 203;
+                   minute = 863;
+                   price = "1083.355";
+                   volume = 326000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 485320;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-204";
+                   index = 204;
+                   minute = 864;
+                   price = "1083.265";
+                   volume = 112000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2724320;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-205";
+                   index = 205;
+                   minute = 865;
+                   price = "1083.044";
+                   volume = 967000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 3037660;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-206";
+                   index = 206;
+                   minute = 866;
+                   price = "1082.958";
+                   volume = 1100000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2234910;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-207";
+                   index = 207;
+                   minute = 867;
+                   price = "1083.007";
+                   volume = 739000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2307800;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-208";
+                   index = 208;
+                   minute = 868;
+                   price = "1082.84";
+                   volume = 525800;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2221560;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-209";
+                   index = 209;
+                   minute = 869;
+                   price = "1082.808";
+                   volume = 684000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1086480;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-210";
+                   index = 210;
+                   minute = 870;
+                   price = "1082.737";
+                   volume = 216000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 697010;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-211";
+                   index = 211;
+                   minute = 871;
+                   price = "1082.711";
+                   volume = 184000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 805310;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-212";
+                   index = 212;
+                   minute = 872;
+                   price = "1082.742";
+                   volume = 207000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 982770;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-213";
+                   index = 213;
+                   minute = 873;
+                   price = "1082.736";
+                   volume = 290000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 270600;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-214";
+                   index = 214;
+                   minute = 874;
+                   price = "1082.712";
+                   volume = 66000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 704340;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-215";
+                   index = 215;
+                   minute = 875;
+                   price = "1082.661";
+                   volume = 207000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1240500;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-216";
+                   index = 216;
+                   minute = 876;
+                   price = "1082.598";
+                   volume = 286000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 217440;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-217";
+                   index = 217;
+                   minute = 877;
+                   price = "1082.594";
+                   volume = 38000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 999050;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-218";
+                   index = 218;
+                   minute = 878;
+                   price = "1082.652";
+                   volume = 413000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 686650;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-219";
+                   index = 219;
+                   minute = 879;
+                   price = "1082.596";
+                   volume = 233000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 2408010;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-220";
+                   index = 220;
+                   minute = 880;
+                   price = "1082.49";
+                   volume = 664000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1784265;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-221";
+                   index = 221;
+                   minute = 881;
+                   price = "1082.523";
+                   volume = 284500;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 844560;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-222";
+                   index = 222;
+                   minute = 882;
+                   price = "1082.618";
+                   volume = 157000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 593730;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-223";
+                   index = 223;
+                   minute = 883;
+                   price = "1082.642";
+                   volume = 231000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 460170;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-224";
+                   index = 224;
+                   minute = 884;
+                   price = "1082.694";
+                   volume = 100000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 431140;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-225";
+                   index = 225;
+                   minute = 885;
+                   price = "1082.732";
+                   volume = 81000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 345180;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-226";
+                   index = 226;
+                   minute = 886;
+                   price = "1082.73";
+                   volume = 74000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 294730;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-227";
+                   index = 227;
+                   minute = 887;
+                   price = "1082.909";
+                   volume = 99000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 752790;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-228";
+                   index = 228;
+                   minute = 888;
+                   price = "1082.896";
+                   volume = 137000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 302370;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-229";
+                   index = 229;
+                   minute = 889;
+                   price = "1082.85";
+                   volume = 76000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 600609;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-230";
+                   index = 230;
+                   minute = 890;
+                   price = "1082.861";
+                   volume = 140683;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 888930;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-231";
+                   index = 231;
+                   minute = 891;
+                   price = "1082.783";
+                   volume = 131000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1012500;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-232";
+                   index = 232;
+                   minute = 892;
+                   price = "1082.882";
+                   volume = 96000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 498530;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-233";
+                   index = 233;
+                   minute = 893;
+                   price = "1082.934";
+                   volume = 146000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 561960;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-234";
+                   index = 234;
+                   minute = 894;
+                   price = "1083.089";
+                   volume = 82000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 580930;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-235";
+                   index = 235;
+                   minute = 895;
+                   price = "1083.278";
+                   volume = 84000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1403595;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-236";
+                   index = 236;
+                   minute = 896;
+                   price = "1083.404";
+                   volume = 303500;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 546650;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-237";
+                   index = 237;
+                   minute = 897;
+                   price = "1083.408";
+                   volume = 83000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 4090640;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-238";
+                   index = 238;
+                   minute = 898;
+                   price = "1083.551";
+                   volume = 1410000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 1745000;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-239";
+                   index = 239;
+                   minute = 899;
+                   price = "1083.845";
+                   volume = 412000;
+                   zqdm = 899002;
+                   },
+                   {
+                   amount = 345350;
+                   avgPrice = "1085.514";
+                   day = 20161017;
+                   id = "899002-240";
+                   index = 240;
+                   minute = 1020;
+                   price = "1084.074";
+                   volume = 59000;
+                   zqdm = 899002;
+                   }
+                   );
+    msg = ok;
+    ret = 0;
+}
+

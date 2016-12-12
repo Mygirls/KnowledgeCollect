@@ -34,8 +34,6 @@
     [TalkingData sessionStarted:@"A1EA0F0B2C0AA5F32D4A64FF8C27DBE2" withChannelId:@"APPStore"];
     
     
-    
-    
 
     
     return YES;

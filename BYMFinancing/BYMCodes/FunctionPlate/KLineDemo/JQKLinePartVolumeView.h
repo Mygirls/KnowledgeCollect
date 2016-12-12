@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JQKTimeLineModel.h"
 @interface JQKLinePartVolumeView : UIView
+- (void)drawViewWithXPosition:(CGFloat)xPosition drawModels:(NSArray *)drawLineModels;
 
 @end

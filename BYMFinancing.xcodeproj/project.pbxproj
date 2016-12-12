@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B3497F184B4FD8034158932 /* libPods-BYMFinancing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0A677752F94E10D8E90CB7 /* libPods-BYMFinancing.a */; };
+		C352591C1DF7B62D0051ADA3 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C352591B1DF7B62D0051ADA3 /* TestView.m */; };
 		C3592B341DCADA7B00D73D43 /* UILabel+LXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B331DCADA7B00D73D43 /* UILabel+LXAdd.m */; };
 		C3592B371DCADB2B00D73D43 /* UILabel+BYM.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B361DCADB2B00D73D43 /* UILabel+BYM.m */; };
 		C3592B3A1DCADBF800D73D43 /* NSString+BYM.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B391DCADBF800D73D43 /* NSString+BYM.m */; };
@@ -30,9 +31,22 @@
 		C37DC65F1DEE749F003424D6 /* saomiaoxian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37DC6501DEE749F003424D6 /* saomiaoxian@3x.png */; };
 		C37DC6621DEE76D9003424D6 /* QRCodeInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37DC6611DEE76D9003424D6 /* QRCodeInfomationViewController.m */; };
 		C37DC6681DEECFCE003424D6 /* KLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37DC6671DEECFCE003424D6 /* KLineViewController.m */; };
+		C3952C761DF276470017C6CE /* JQKLinePartVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3952C751DF276470017C6CE /* JQKLinePartVolumeView.m */; };
+		C3952C791DF278E10017C6CE /* JQKLineVolumePositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3952C781DF278E10017C6CE /* JQKLineVolumePositionModel.m */; };
 		C39F7E6B1DF003360080AC3D /* KLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E6A1DF003360080AC3D /* KLineView.m */; };
 		C39F7E6E1DF0197D0080AC3D /* DrawKLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */; };
 		C39F7E711DF01E430080AC3D /* JQKTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */; };
+		C3B7F3B71DF176CB0031843A /* JQKLinePartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7F3B61DF176CB0031843A /* JQKLinePartLineView.m */; };
+		C3D75AF81DF10E5D003B7396 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AF71DF10E5D003B7396 /* KVCViewController.m */; };
+		C3D75AFC1DF11005003B7396 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AFB1DF11005003B7396 /* Student.m */; };
+		C3D75AFF1DF11238003B7396 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AFE1DF11238003B7396 /* Course.m */; };
+		C3D75B011DF14C99003B7396 /* KLindeFiveDataSource.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B001DF14C99003B7396 /* KLindeFiveDataSource.json */; };
+		C3D75B031DF14E46003B7396 /* KLineMinutesource.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B021DF14E46003B7396 /* KLineMinutesource.json */; };
+		C3D75B051DF14E67003B7396 /* KLineDaySource.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B041DF14E67003B7396 /* KLineDaySource.json */; };
+		C3D75B071DF14FA0003B7396 /* minuteData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B061DF14FA0003B7396 /* minuteData.plist */; };
+		C3D75B091DF14FB8003B7396 /* dayData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B081DF14FB8003B7396 /* dayData.plist */; };
+		C3D75B0B1DF14FD7003B7396 /* fiveData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B0A1DF14FD7003B7396 /* fiveData.plist */; };
+		C3D75B0E1DF15200003B7396 /* JQKTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75B0D1DF15200003B7396 /* JQKTimeLineModel.m */; };
 		C531B82E1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B82D1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m */; };
 		C531B8311DD1753900B058A7 /* FindTrendPassWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B8301DD1753900B058A7 /* FindTrendPassWordController.m */; };
 		C531B8371DD19CD900B058A7 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B8361DD19CD900B058A7 /* RegistViewController.m */; };
@@ -133,6 +147,8 @@
 		0F0A677752F94E10D8E90CB7 /* libPods-BYMFinancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BYMFinancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32C0941672F18D2FEA79FD /* Pods-BYMFinancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYMFinancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYMFinancing/Pods-BYMFinancing.debug.xcconfig"; sourceTree = "<group>"; };
 		783BAFDCF064AA5296FF046F /* Pods-BYMFinancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYMFinancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYMFinancing/Pods-BYMFinancing.release.xcconfig"; sourceTree = "<group>"; };
+		C352591A1DF7B62D0051ADA3 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		C352591B1DF7B62D0051ADA3 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		C3592B321DCADA7B00D73D43 /* UILabel+LXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXAdd.h"; sourceTree = "<group>"; };
 		C3592B331DCADA7B00D73D43 /* UILabel+LXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LXAdd.m"; sourceTree = "<group>"; };
 		C3592B351DCADB2B00D73D43 /* UILabel+BYM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BYM.h"; sourceTree = "<group>"; };
@@ -170,12 +186,32 @@
 		C37DC6611DEE76D9003424D6 /* QRCodeInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeInfomationViewController.m; sourceTree = "<group>"; };
 		C37DC6661DEECFCE003424D6 /* KLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineViewController.h; sourceTree = "<group>"; };
 		C37DC6671DEECFCE003424D6 /* KLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLineViewController.m; sourceTree = "<group>"; };
+		C3952C741DF276470017C6CE /* JQKLinePartVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKLinePartVolumeView.h; sourceTree = "<group>"; };
+		C3952C751DF276470017C6CE /* JQKLinePartVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKLinePartVolumeView.m; sourceTree = "<group>"; };
+		C3952C771DF278E10017C6CE /* JQKLineVolumePositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKLineVolumePositionModel.h; sourceTree = "<group>"; };
+		C3952C781DF278E10017C6CE /* JQKLineVolumePositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKLineVolumePositionModel.m; sourceTree = "<group>"; };
 		C39F7E691DF003360080AC3D /* KLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineView.h; sourceTree = "<group>"; };
 		C39F7E6A1DF003360080AC3D /* KLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLineView.m; sourceTree = "<group>"; };
 		C39F7E6C1DF0197D0080AC3D /* DrawKLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawKLineViewController.h; sourceTree = "<group>"; };
 		C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawKLineViewController.m; sourceTree = "<group>"; };
 		C39F7E6F1DF01E430080AC3D /* JQKTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKTimeLineView.h; sourceTree = "<group>"; };
 		C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKTimeLineView.m; sourceTree = "<group>"; };
+		C3B7F3B51DF176CB0031843A /* JQKLinePartLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKLinePartLineView.h; sourceTree = "<group>"; };
+		C3B7F3B61DF176CB0031843A /* JQKLinePartLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKLinePartLineView.m; sourceTree = "<group>"; };
+		C3D75AF61DF10E5D003B7396 /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		C3D75AF71DF10E5D003B7396 /* KVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
+		C3D75AFA1DF11005003B7396 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C3D75AFB1DF11005003B7396 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		C3D75AFD1DF11238003B7396 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		C3D75AFE1DF11238003B7396 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		C3D75B001DF14C99003B7396 /* KLindeFiveDataSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KLindeFiveDataSource.json; sourceTree = "<group>"; };
+		C3D75B021DF14E46003B7396 /* KLineMinutesource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KLineMinutesource.json; sourceTree = "<group>"; };
+		C3D75B041DF14E67003B7396 /* KLineDaySource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KLineDaySource.json; sourceTree = "<group>"; };
+		C3D75B061DF14FA0003B7396 /* minuteData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = minuteData.plist; sourceTree = "<group>"; };
+		C3D75B081DF14FB8003B7396 /* dayData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dayData.plist; sourceTree = "<group>"; };
+		C3D75B0A1DF14FD7003B7396 /* fiveData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fiveData.plist; sourceTree = "<group>"; };
+		C3D75B0C1DF15200003B7396 /* JQKTimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKTimeLineModel.h; sourceTree = "<group>"; };
+		C3D75B0D1DF15200003B7396 /* JQKTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKTimeLineModel.m; sourceTree = "<group>"; };
 		C531B82C1DD15F3A00B058A7 /* ForgetTradePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetTradePasswordViewController.h; sourceTree = "<group>"; };
 		C531B82D1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetTradePasswordViewController.m; sourceTree = "<group>"; };
 		C531B82F1DD1753900B058A7 /* FindTrendPassWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTrendPassWordController.h; sourceTree = "<group>"; };
@@ -404,6 +440,7 @@
 		C37DC6371DEE7438003424D6 /* FunctionPlate */ = {
 			isa = PBXGroup;
 			children = (
+				C3D75AF91DF10ED3003B7396 /* KVCOrKVODemo */,
 				C39F7E681DF002C90080AC3D /* KLineDemo */,
 				C37DC6381DEE749F003424D6 /* QR_CodeDemo */,
 			);
@@ -457,8 +494,33 @@
 				C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */,
 				C39F7E6F1DF01E430080AC3D /* JQKTimeLineView.h */,
 				C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */,
+				C3B7F3B51DF176CB0031843A /* JQKLinePartLineView.h */,
+				C3B7F3B61DF176CB0031843A /* JQKLinePartLineView.m */,
+				C3D75B0C1DF15200003B7396 /* JQKTimeLineModel.h */,
+				C3D75B0D1DF15200003B7396 /* JQKTimeLineModel.m */,
+				C3952C741DF276470017C6CE /* JQKLinePartVolumeView.h */,
+				C3952C751DF276470017C6CE /* JQKLinePartVolumeView.m */,
+				C3952C771DF278E10017C6CE /* JQKLineVolumePositionModel.h */,
+				C3952C781DF278E10017C6CE /* JQKLineVolumePositionModel.m */,
+				C3D75B001DF14C99003B7396 /* KLindeFiveDataSource.json */,
+				C3D75B021DF14E46003B7396 /* KLineMinutesource.json */,
+				C3D75B041DF14E67003B7396 /* KLineDaySource.json */,
+				C3D75B081DF14FB8003B7396 /* dayData.plist */,
+				C3D75B061DF14FA0003B7396 /* minuteData.plist */,
+				C3D75B0A1DF14FD7003B7396 /* fiveData.plist */,
 			);
 			path = KLineDemo;
+			sourceTree = "<group>";
+		};
+		C3D75AF91DF10ED3003B7396 /* KVCOrKVODemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3D75AFA1DF11005003B7396 /* Student.h */,
+				C3D75AFB1DF11005003B7396 /* Student.m */,
+				C3D75AFD1DF11238003B7396 /* Course.h */,
+				C3D75AFE1DF11238003B7396 /* Course.m */,
+			);
+			path = KVCOrKVODemo;
 			sourceTree = "<group>";
 		};
 		C537CEC01DCC585F00DCCFAE /* LoginAndRegist Pages */ = {
@@ -622,6 +684,8 @@
 				C37DC6611DEE76D9003424D6 /* QRCodeInfomationViewController.m */,
 				C37DC6661DEECFCE003424D6 /* KLineViewController.h */,
 				C37DC6671DEECFCE003424D6 /* KLineViewController.m */,
+				C3D75AF61DF10E5D003B7396 /* KVCViewController.h */,
+				C3D75AF71DF10E5D003B7396 /* KVCViewController.m */,
 				C53C92831DC9B747001325C0 /* RiskViewController.h */,
 				C53C92841DC9B747001325C0 /* RiskViewController.m */,
 				C53C92861DC9B769001325C0 /* ProtectViewController.h */,
@@ -818,6 +882,8 @@
 				C53C924F1DC992D5001325C0 /* BYMBaseLabel.m */,
 				C537CEC41DCC5AFD00DCCFAE /* BYMBaseTextField.h */,
 				C537CEC51DCC5AFD00DCCFAE /* BYMBaseTextField.m */,
+				C352591A1DF7B62D0051ADA3 /* TestView.h */,
+				C352591B1DF7B62D0051ADA3 /* TestView.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -1043,13 +1109,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D75B031DF14E46003B7396 /* KLineMinutesource.json in Resources */,
 				C53C92781DC9B334001325C0 /* WebViewJavascriptBridge.js.txt in Resources */,
+				C3D75B091DF14FB8003B7396 /* dayData.plist in Resources */,
 				C37DC6511DEE749F003424D6 /* faces1.png in Resources */,
 				C53C92331DC976AB001325C0 /* navigationBg.png in Resources */,
 				C37DC6541DEE749F003424D6 /* faces4.jpg in Resources */,
+				C3D75B011DF14C99003B7396 /* KLindeFiveDataSource.json in Resources */,
 				C37DC6551DEE749F003424D6 /* faces5.jpg in Resources */,
+				C3D75B051DF14E67003B7396 /* KLineDaySource.json in Resources */,
 				C37DC6561DEE749F003424D6 /* faces6.jpg in Resources */,
+				C3D75B0B1DF14FD7003B7396 /* fiveData.plist in Resources */,
 				C37DC6521DEE749F003424D6 /* faces2.jpg in Resources */,
+				C3D75B071DF14FA0003B7396 /* minuteData.plist in Resources */,
 				C37DC6531DEE749F003424D6 /* faces3.jpg in Resources */,
 				C5D22FF31DCB0AA7001A867D /* 集成加密库请读.txt in Resources */,
 				C37DC65F1DEE749F003424D6 /* saomiaoxian@3x.png in Resources */,
@@ -1145,6 +1217,7 @@
 				C53C92791DC9B334001325C0 /* WebViewJavascriptBridge.m in Sources */,
 				C53EFE151DC86B880049FC4B /* BYMAnimationView.m in Sources */,
 				C53C927B1DC9B334001325C0 /* WKWebViewJavascriptBridge.m in Sources */,
+				C3D75AFF1DF11238003B7396 /* Course.m in Sources */,
 				C53C92431DC97A77001325C0 /* BYMTotpicItem.m in Sources */,
 				C531B8401DD1AB2000B058A7 /* MyGradeViewController.m in Sources */,
 				C53C92811DC9B338001325C0 /* QINetReachabilityManager.m in Sources */,
@@ -1162,6 +1235,7 @@
 				C53C922C1DC97092001325C0 /* BYMBaseModel.m in Sources */,
 				C53EF7331DC83BEA0049FC4B /* AppDelegate.m in Sources */,
 				C53EFE201DC870DE0049FC4B /* ManagerFinancialProductViewController.m in Sources */,
+				C352591C1DF7B62D0051ADA3 /* TestView.m in Sources */,
 				C53C92311DC97449001325C0 /* BYMBaseViewController.m in Sources */,
 				C53C92561DC99859001325C0 /* HomebottomView.m in Sources */,
 				C37DC65C1DEE749F003424D6 /* QRMenu.m in Sources */,
@@ -1171,11 +1245,14 @@
 				C39F7E6B1DF003360080AC3D /* KLineView.m in Sources */,
 				C531B84F1DD1AFB900B058A7 /* KACircleProgressView.m in Sources */,
 				C3592B3A1DCADBF800D73D43 /* NSString+BYM.m in Sources */,
+				C3952C791DF278E10017C6CE /* JQKLineVolumePositionModel.m in Sources */,
 				C54B40E51DD06A29005160ED /* PersonalCenterViewController.m in Sources */,
+				C3952C761DF276470017C6CE /* JQKLinePartVolumeView.m in Sources */,
 				C55F007D1DC9C3A1002625A1 /* SystemNoticeCell.m in Sources */,
 				C53C927A1DC9B334001325C0 /* WebViewJavascriptBridgeBase.m in Sources */,
 				C537CEBC1DCC2D5400DCCFAE /* HomeSignViewController.m in Sources */,
 				C531B8311DD1753900B058A7 /* FindTrendPassWordController.m in Sources */,
+				C3D75AF81DF10E5D003B7396 /* KVCViewController.m in Sources */,
 				C537CEC61DCC5AFD00DCCFAE /* BYMBaseTextField.m in Sources */,
 				C53EF7851DC866370049FC4B /* BYMTabBarController.m in Sources */,
 				C54B40F21DD06C2D005160ED /* UIView+UIViewController.m in Sources */,
@@ -1184,6 +1261,7 @@
 				C531B8371DD19CD900B058A7 /* RegistViewController.m in Sources */,
 				C37DC6681DEECFCE003424D6 /* KLineViewController.m in Sources */,
 				C537CEC31DCC588800DCCFAE /* LogInViewController.m in Sources */,
+				C3B7F3B71DF176CB0031843A /* JQKLinePartLineView.m in Sources */,
 				C53C92851DC9B747001325C0 /* RiskViewController.m in Sources */,
 				C53EFE321DC890D00049FC4B /* BYMNavgationController.m in Sources */,
 				C53EF7881DC866AF0049FC4B /* BYMTabBar.m in Sources */,
@@ -1196,11 +1274,13 @@
 				C54B40EF1DD06A65005160ED /* UIImage+Helper.m in Sources */,
 				C37DC65B1DEE749F003424D6 /* QRItem.m in Sources */,
 				C5D22FF21DCB0AA7001A867D /* LLPayUtil.m in Sources */,
+				C3D75B0E1DF15200003B7396 /* JQKTimeLineModel.m in Sources */,
 				C3592B3D1DCADC4500D73D43 /* UtilityClass.m in Sources */,
 				C37DC65D1DEE749F003424D6 /* QRView.m in Sources */,
 				C531B8521DD1B45D00B058A7 /* UnderstandingLevelPrivilegeViewController.m in Sources */,
 				C53C92961DC9C225001325C0 /* SystemNoticeTableView.m in Sources */,
 				C53C928B1DC9B77C001325C0 /* AboutBaiYiMaoViewController.m in Sources */,
+				C3D75AFC1DF11005003B7396 /* Student.m in Sources */,
 				C531B8461DD1ACBB00B058A7 /* GradeProgressBar.m in Sources */,
 				C53C92881DC9B769001325C0 /* ProtectViewController.m in Sources */,
 				C39F7E6E1DF0197D0080AC3D /* DrawKLineViewController.m in Sources */,

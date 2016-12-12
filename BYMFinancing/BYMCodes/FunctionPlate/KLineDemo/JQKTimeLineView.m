@@ -7,70 +7,109 @@
 //
 
 #import "JQKTimeLineView.h"
+#import "JQKTimeLineModel.h"
+#import "JQKLinePartLineView.h"
+#import "JQKLinePartVolumeView.h"
+@interface JQKTimeLineView ()
+
+/**
+ 当前绘制在屏幕上的数据源数组
+ */
+@property (nonatomic, strong) NSArray *drawLineModels;
+
+@property (nonatomic, copy) NSArray *drawLinePositionModels;//位置数组
+@property (nonatomic, strong) JQKLinePartLineView *timeLineView;//分时
+
+
+@property (nonatomic, strong) JQKLinePartVolumeView *volumeView;//成交量
+
+@end
 
 @implementation JQKTimeLineView
-
-- (instancetype)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:frame];
-    if (self) {
-        //self.backgroundColor = [UIColor grayColor];
+#pragma mark - 页面上显示的数据
+    //图表最大的价格
+    CGFloat maxValue;
+    //图表最小的价格
+    CGFloat minValue;
+    //图表最大的成交量
+    CGFloat volumeValue;
+    
+    //当前长按选中的model
+    JQKTimeLineModel *selectedModel;
+}
 
+- (instancetype)initWithTimeLineModels:(NSArray *)models
+{
+    self = [super init];
+    if (self) {
+        self.backgroundColor = [UIColor orangeColor];
+        _drawLineModels = models;
+
+        [self setUpInit];
     }
     return self;
 }
 
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-    [self aa ];
-}
-
-- (void)bb {
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-
-    UIColor *strokeColor =  [UIColor orangeColor];
-    CGContextSetStrokeColorWithColor(ctx, strokeColor.CGColor);
-
-    CGContextSetLineWidth(ctx, 12);
-    const CGPoint solidPoints[] = {CGPointMake(64 + 10, 64 + 64),CGPointMake(64 + 10, 84 + 64)};
-    //一些直线
-    CGContextStrokeLineSegments(ctx, solidPoints, 12);
-
-    CGContextSetLineWidth(ctx, 1.2);
-    const CGPoint shadowPoints[] = {CGPointMake(64 + 10, 64 + 63), CGPointMake(74, 84 + 90)};
-    CGContextStrokeLineSegments(ctx, shadowPoints, 12);
-
+- (void)drawRect:(CGRect)rect
+{
+    [super drawRect:rect];
+    
+    [self updateDrawModels];
+    
+    //分时
+    self.drawLinePositionModels = [self.timeLineView drawViewWithXPosition:0 drawModels:self.drawLineModels maxValue:maxValue minValue:minValue];
+    
+    
+    //成交量
+    [self.volumeView drawViewWithXPosition:0 drawModels:self.drawLineModels ];
 
 }
+- (void)setUpInit {
+    
+    //加载TimeLineView
+    _timeLineView = [JQKLinePartLineView new];
+    _timeLineView.backgroundColor = [UIColor whiteColor];
+    [self addSubview:_timeLineView];
+    [_timeLineView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(self);
+        make.bottom.equalTo(self.mas_bottom).with.offset(-300);
+        make.top.equalTo(self.mas_top).with.offset(100);
 
-- (void)aa {
-    //获得处理的上下文
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    //设置线的颜色
-    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
-    //起始点设置为(0,0):注意这是上下文对应区域中的相对坐标，
-    CGContextMoveToPoint(context, 64 + 10, 64 + 64);
-    //设置下一个坐标点
-    CGContextAddLineToPoint(context, 64 + 10, 84 + 64);
-    //设置下一个坐标点
-//    CGContextAddLineToPoint(context, 0, 150);
-//    //设置下一个坐标点
-//    CGContextAddLineToPoint(context, 50, 180);
-//    //设置下一个坐标点
-//    CGContextAddLineToPoint(context, 10, 18);
-
-    //设置线条样式
-    CGContextSetLineCap(context, kCGLineCapSquare);//kCGLineCapRound    kCGLineCapSquare
-    //设置线条粗细宽度，默认为1.0
-    CGContextSetLineWidth(context, 12);
-
-    //连接上面定义的坐标点，也就是开始绘图
-    CGContextStrokePath(context);
+    }];
 
 
-
-
+    _volumeView = [JQKLinePartVolumeView new];
+    _volumeView.backgroundColor = [UIColor whiteColor];
+    [self addSubview:_volumeView];
+    [_volumeView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(self);
+        make.bottom.equalTo(self.mas_bottom).with.offset(-30);
+        make.top.equalTo(self.mas_top).with.offset(400);
+    }];
+    
 }
+
+
+/**
+ 更新需要绘制的数据源：Price   最大值最小值-价格
+ */
+- (void)updateDrawModels {
+    
+    //KVO 更新最大值最小值-价格
+    JQKTimeLineModel *model = (JQKTimeLineModel *)self.drawLineModels.firstObject;
+    CGFloat average = [model AvgPrice];
+    maxValue = [[self.drawLineModels valueForKeyPath:@"Price.@max.floatValue"] floatValue];
+    minValue = [[self.drawLineModels valueForKeyPath:@"Price.@min.floatValue"] floatValue];
+    if (ABS(maxValue - average) > ABS(average - minValue)) {
+        minValue = 2 * average - maxValue;
+    } else {
+        maxValue = 2 * average - minValue;
+    }
+}
+
+
+
 
 
 @end

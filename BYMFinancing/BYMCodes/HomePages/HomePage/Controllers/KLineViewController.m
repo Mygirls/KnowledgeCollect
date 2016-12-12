@@ -79,6 +79,7 @@
     
     if (!_drawView) {
         _drawView = [[KLineView alloc] initWithFrame:CGRectMake(0, 64 + 50 + 40, KScreen_Width, KScreen_Width )];
+        
     }
     
     return _drawView;
