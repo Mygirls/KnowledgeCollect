@@ -335,6 +335,7 @@
     NSString *str = [NSString stringWithFormat:  @"{\"authorization\":\"%@\"}",authorization];
     [dic setObject:str forKey:@"parameters"];
     [BYMBaseRequest requestWithURL:@"User/showMyAccount" params:dic httpMethod:@"POST" blockSuccess:^(id result) {
+        NSLog(@"%@",result);
         if ([result isKindOfClass:[NSError class]]) {
             [self noLoginButton];
             

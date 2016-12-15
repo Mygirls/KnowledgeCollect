@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1B3497F184B4FD8034158932 /* libPods-BYMFinancing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0A677752F94E10D8E90CB7 /* libPods-BYMFinancing.a */; };
+		C3381BB41E011E4600CD5114 /* testFitst.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3381BB31E011E4600CD5114 /* testFitst.plist */; };
+		C3381BB61E01299900CD5114 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C3381BB51E01299900CD5114 /* libsqlite3.tbd */; };
+		C3381BB91E012ABC00CD5114 /* JQSQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3381BB81E012ABC00CD5114 /* JQSQLManager.m */; };
+		C3381BBB1E012B8A00CD5114 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C3381BBA1E012B8A00CD5114 /* libsqlite3.0.tbd */; };
+		C3381BBE1E01343700CD5114 /* JQSqliteStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = C3381BBD1E01343700CD5114 /* JQSqliteStudent.m */; };
 		C352591C1DF7B62D0051ADA3 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C352591B1DF7B62D0051ADA3 /* TestView.m */; };
 		C3592B341DCADA7B00D73D43 /* UILabel+LXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B331DCADA7B00D73D43 /* UILabel+LXAdd.m */; };
 		C3592B371DCADB2B00D73D43 /* UILabel+BYM.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B361DCADB2B00D73D43 /* UILabel+BYM.m */; };
 		C3592B3A1DCADBF800D73D43 /* NSString+BYM.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B391DCADBF800D73D43 /* NSString+BYM.m */; };
 		C3592B3D1DCADC4500D73D43 /* UtilityClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B3C1DCADC4500D73D43 /* UtilityClass.m */; };
 		C3592B401DCB08EF00D73D43 /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B3F1DCB08EF00D73D43 /* UINavigationBar+BackgroundColor.m */; };
+		C35AF3301DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35AF32F1DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.m */; };
 		C37DC6511DEE749F003424D6 /* faces1.png in Resources */ = {isa = PBXBuildFile; fileRef = C37DC63A1DEE749F003424D6 /* faces1.png */; };
 		C37DC6521DEE749F003424D6 /* faces2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C37DC63B1DEE749F003424D6 /* faces2.jpg */; };
 		C37DC6531DEE749F003424D6 /* faces3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C37DC63C1DEE749F003424D6 /* faces3.jpg */; };
@@ -36,6 +42,7 @@
 		C39F7E6B1DF003360080AC3D /* KLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E6A1DF003360080AC3D /* KLineView.m */; };
 		C39F7E6E1DF0197D0080AC3D /* DrawKLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */; };
 		C39F7E711DF01E430080AC3D /* JQKTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */; };
+		C3A163471E02244F00BCBE9D /* git的操作.pages in Resources */ = {isa = PBXBuildFile; fileRef = C3A163461E02244F00BCBE9D /* git的操作.pages */; };
 		C3B7F3B71DF176CB0031843A /* JQKLinePartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7F3B61DF176CB0031843A /* JQKLinePartLineView.m */; };
 		C3D75AF81DF10E5D003B7396 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AF71DF10E5D003B7396 /* KVCViewController.m */; };
 		C3D75AFC1DF11005003B7396 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AFB1DF11005003B7396 /* Student.m */; };
@@ -147,6 +154,13 @@
 		0F0A677752F94E10D8E90CB7 /* libPods-BYMFinancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BYMFinancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32C0941672F18D2FEA79FD /* Pods-BYMFinancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYMFinancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYMFinancing/Pods-BYMFinancing.debug.xcconfig"; sourceTree = "<group>"; };
 		783BAFDCF064AA5296FF046F /* Pods-BYMFinancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYMFinancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYMFinancing/Pods-BYMFinancing.release.xcconfig"; sourceTree = "<group>"; };
+		C3381BB31E011E4600CD5114 /* testFitst.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = testFitst.plist; sourceTree = "<group>"; };
+		C3381BB51E01299900CD5114 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C3381BB71E012ABC00CD5114 /* JQSQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQSQLManager.h; sourceTree = "<group>"; };
+		C3381BB81E012ABC00CD5114 /* JQSQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQSQLManager.m; sourceTree = "<group>"; };
+		C3381BBA1E012B8A00CD5114 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C3381BBC1E01343700CD5114 /* JQSqliteStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQSqliteStudent.h; sourceTree = "<group>"; };
+		C3381BBD1E01343700CD5114 /* JQSqliteStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQSqliteStudent.m; sourceTree = "<group>"; };
 		C352591A1DF7B62D0051ADA3 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		C352591B1DF7B62D0051ADA3 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		C3592B321DCADA7B00D73D43 /* UILabel+LXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXAdd.h"; sourceTree = "<group>"; };
@@ -159,6 +173,8 @@
 		C3592B3C1DCADC4500D73D43 /* UtilityClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityClass.m; sourceTree = "<group>"; };
 		C3592B3E1DCB08EF00D73D43 /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
 		C3592B3F1DCB08EF00D73D43 /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
+		C35AF32E1DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterviewKnowledgeViewController.h; sourceTree = "<group>"; };
+		C35AF32F1DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterviewKnowledgeViewController.m; sourceTree = "<group>"; };
 		C37DC63A1DEE749F003424D6 /* faces1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faces1.png; sourceTree = "<group>"; };
 		C37DC63B1DEE749F003424D6 /* faces2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faces2.jpg; sourceTree = "<group>"; };
 		C37DC63C1DEE749F003424D6 /* faces3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faces3.jpg; sourceTree = "<group>"; };
@@ -196,6 +212,7 @@
 		C39F7E6D1DF0197D0080AC3D /* DrawKLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawKLineViewController.m; sourceTree = "<group>"; };
 		C39F7E6F1DF01E430080AC3D /* JQKTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKTimeLineView.h; sourceTree = "<group>"; };
 		C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKTimeLineView.m; sourceTree = "<group>"; };
+		C3A163461E02244F00BCBE9D /* git的操作.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "git的操作.pages"; sourceTree = "<group>"; };
 		C3B7F3B51DF176CB0031843A /* JQKLinePartLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKLinePartLineView.h; sourceTree = "<group>"; };
 		C3B7F3B61DF176CB0031843A /* JQKLinePartLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKLinePartLineView.m; sourceTree = "<group>"; };
 		C3D75AF61DF10E5D003B7396 /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
@@ -363,6 +380,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3381BBB1E012B8A00CD5114 /* libsqlite3.0.tbd in Frameworks */,
+				C3381BB61E01299900CD5114 /* libsqlite3.tbd in Frameworks */,
 				C5D230051DCB0D1A001A867D /* libz.tbd in Frameworks */,
 				C53C92471DC987AC001325C0 /* SystemConfiguration.framework in Frameworks */,
 				C5D230031DCB0CF1001A867D /* Security.framework in Frameworks */,
@@ -406,6 +425,8 @@
 		5F37B15C3DB4E7ADEBBCD1CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3381BBA1E012B8A00CD5114 /* libsqlite3.0.tbd */,
+				C3381BB51E01299900CD5114 /* libsqlite3.tbd */,
 				C5D230041DCB0D1A001A867D /* libz.tbd */,
 				C5D230021DCB0CF1001A867D /* Security.framework */,
 				C5D230001DCB0CE8001A867D /* CoreMotion.framework */,
@@ -416,6 +437,18 @@
 				0F0A677752F94E10D8E90CB7 /* libPods-BYMFinancing.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3381BB21E011E1F00CD5114 /* InterviewKnowledgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3381BB31E011E4600CD5114 /* testFitst.plist */,
+				C3381BB71E012ABC00CD5114 /* JQSQLManager.h */,
+				C3381BB81E012ABC00CD5114 /* JQSQLManager.m */,
+				C3381BBC1E01343700CD5114 /* JQSqliteStudent.h */,
+				C3381BBD1E01343700CD5114 /* JQSqliteStudent.m */,
+			);
+			path = InterviewKnowledgeDemo;
 			sourceTree = "<group>";
 		};
 		C3592B311DCAD89B00D73D43 /* ExtendClasses */ = {
@@ -440,6 +473,8 @@
 		C37DC6371DEE7438003424D6 /* FunctionPlate */ = {
 			isa = PBXGroup;
 			children = (
+				C3A163461E02244F00BCBE9D /* git的操作.pages */,
+				C3381BB21E011E1F00CD5114 /* InterviewKnowledgeDemo */,
 				C3D75AF91DF10ED3003B7396 /* KVCOrKVODemo */,
 				C39F7E681DF002C90080AC3D /* KLineDemo */,
 				C37DC6381DEE749F003424D6 /* QR_CodeDemo */,
@@ -686,6 +721,8 @@
 				C37DC6671DEECFCE003424D6 /* KLineViewController.m */,
 				C3D75AF61DF10E5D003B7396 /* KVCViewController.h */,
 				C3D75AF71DF10E5D003B7396 /* KVCViewController.m */,
+				C35AF32E1DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.h */,
+				C35AF32F1DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.m */,
 				C53C92831DC9B747001325C0 /* RiskViewController.h */,
 				C53C92841DC9B747001325C0 /* RiskViewController.m */,
 				C53C92861DC9B769001325C0 /* ProtectViewController.h */,
@@ -1112,7 +1149,9 @@
 				C3D75B031DF14E46003B7396 /* KLineMinutesource.json in Resources */,
 				C53C92781DC9B334001325C0 /* WebViewJavascriptBridge.js.txt in Resources */,
 				C3D75B091DF14FB8003B7396 /* dayData.plist in Resources */,
+				C3A163471E02244F00BCBE9D /* git的操作.pages in Resources */,
 				C37DC6511DEE749F003424D6 /* faces1.png in Resources */,
+				C3381BB41E011E4600CD5114 /* testFitst.plist in Resources */,
 				C53C92331DC976AB001325C0 /* navigationBg.png in Resources */,
 				C37DC6541DEE749F003424D6 /* faces4.jpg in Resources */,
 				C3D75B011DF14C99003B7396 /* KLindeFiveDataSource.json in Resources */,
@@ -1214,6 +1253,7 @@
 				C53EFE351DC893DC0049FC4B /* BYMBaseRequest.m in Sources */,
 				C54B40F51DD06D79005160ED /* ChangeLogInPasswordViewController.m in Sources */,
 				C37DC6581DEE749F003424D6 /* MJQFaceRecognitionCenter.m in Sources */,
+				C3381BBE1E01343700CD5114 /* JQSqliteStudent.m in Sources */,
 				C53C92791DC9B334001325C0 /* WebViewJavascriptBridge.m in Sources */,
 				C53EFE151DC86B880049FC4B /* BYMAnimationView.m in Sources */,
 				C53C927B1DC9B334001325C0 /* WKWebViewJavascriptBridge.m in Sources */,
@@ -1225,6 +1265,7 @@
 				C53C92401DC979D3001325C0 /* TotTopicHeaderView.m in Sources */,
 				C53C924D1DC9922A001325C0 /* SpecialRecommendationView.m in Sources */,
 				C5D22FEF1DCB0AA7001A867D /* ReadMe.md in Sources */,
+				C35AF3301DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.m in Sources */,
 				C531B8431DD1ABF100B058A7 /* MyGradeHeadView.m in Sources */,
 				C54B40E41DD06A29005160ED /* MyInvestViewController.m in Sources */,
 				C53C92931DC9C1C5001325C0 /* SystemNoticeViewController.m in Sources */,
@@ -1250,6 +1291,7 @@
 				C3952C761DF276470017C6CE /* JQKLinePartVolumeView.m in Sources */,
 				C55F007D1DC9C3A1002625A1 /* SystemNoticeCell.m in Sources */,
 				C53C927A1DC9B334001325C0 /* WebViewJavascriptBridgeBase.m in Sources */,
+				C3381BB91E012ABC00CD5114 /* JQSQLManager.m in Sources */,
 				C537CEBC1DCC2D5400DCCFAE /* HomeSignViewController.m in Sources */,
 				C531B8311DD1753900B058A7 /* FindTrendPassWordController.m in Sources */,
 				C3D75AF81DF10E5D003B7396 /* KVCViewController.m in Sources */,

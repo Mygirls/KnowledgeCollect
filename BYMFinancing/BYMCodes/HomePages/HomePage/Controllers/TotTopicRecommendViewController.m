@@ -11,6 +11,7 @@
 #import "KLineViewController.h"
 #import "KVCViewController.h"
 #import "TestView.h"
+#import "InterviewKnowledgeViewController.h"
 @interface TotTopicRecommendViewController ()
 
 @property(nonatomic,strong)TestView *testView;
@@ -27,10 +28,28 @@
    
     self.title = @"首页";
     
+    
     [self QRCode];
     [self KLineView];
     [self KVCView];
     [self test];
+    
+    [self InterviewKnowledgeViewController];
+    NSURL *url = [NSURL URLWithString:@"http://www.baidu.com/search?id=1//"];
+    NSLog(@"scheme:%@", [url scheme]); //协议 http
+    NSLog(@"host:%@", [url host]);     //域名 www.baidu.com
+    NSLog(@"absoluteString:%@", [url absoluteString]); //完整的url字符串 http://www.baidu.com:8080/search?id=1   (刚才在真机上跑了一下，并没有打印出来端口 8080 啊)
+    NSLog(@"%d",[[url absoluteString] hasSuffix:@"/"]);//测试字符串是否以aString结尾
+    url = [url URLByAppendingPathComponent:@""];
+    NSLog(@"url = %@",url);
+    
+    NSLog(@"relativePath: %@", [url relativePath]); //相对路径 search
+    NSLog(@"port :%@", [url port]);  // 端口 8080
+    NSLog(@"path: %@", [url path]);  // 路径 search
+    NSLog(@"pathComponents:%@", [url pathComponents]); // search
+    NSLog(@"Query:%@", [url query]);  //参
+    
+    
 }
 
 - (void)QRCode
@@ -110,5 +129,22 @@
     [self.view addSubview:testView];
 }
 
+- (void)InterviewKnowledgeViewController
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 300, 160, 40);
+    [button setTitle:@"面试" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(mianshi:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
 
+- (void)mianshi:(UIButton *)btn
+{
+    
+    InterviewKnowledgeViewController *kvcVC = [[InterviewKnowledgeViewController alloc]init];
+    [self.navigationController pushViewController:kvcVC animated:YES];
+    
+}
 @end

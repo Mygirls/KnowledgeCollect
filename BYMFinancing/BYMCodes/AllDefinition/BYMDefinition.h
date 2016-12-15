@@ -35,6 +35,32 @@
 #define KScreen_Width  [UIScreen mainScreen].bounds.size.width
 #define KScreen_Height [UIScreen mainScreen].bounds.size.height
 
+//字符串是否为空
+#define MJQStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES :NO)
+//数组是否为空
+#define MJQArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+
+//字典是否为空
+#define MJQDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.count == 0)
+
+//获取系统版本
+#define IOS_VERSION [UIDevice currentDevice] systemVersion] floatValue]
+#define CurrentSystemVersion ［UIDevice currentDevice] systemVersion]
+
+//获取当前语言
+#define CurrentLanguage (［NSLocale preferredLanguages] objectAtIndex:0])
+
+////判断是真机还是模拟器
+//#if TARGET_OS_IPHONE                            //iPhone Device
+//#endif
+//#if TARGET_IPHONE_SIMULATOR                     //iPhone Simulator
+//#endif
+
+//方正黑体简体字体定义
+#define FONT(F) [UIFont fontWithName:@"FZHTJW--GB1-0" size:F]
+
+
+
 /**
  * 随机色
  */

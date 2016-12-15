@@ -68,6 +68,7 @@
     [self.view addSubview:button2];
     
 }
+
 - (void)button02
 {
     [self interfaceOrientation:UIInterfaceOrientationLandscapeRight];
