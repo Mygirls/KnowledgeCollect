@@ -33,7 +33,7 @@
 #import "Masonry.h"
 #import "JSONModel.h"
 #import "MBProgressHUD.h"
-
+#import <FMDB.h>
 
 /**
  *获取idfa需要的库

@@ -54,6 +54,7 @@
 		C3D75B091DF14FB8003B7396 /* dayData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B081DF14FB8003B7396 /* dayData.plist */; };
 		C3D75B0B1DF14FD7003B7396 /* fiveData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3D75B0A1DF14FD7003B7396 /* fiveData.plist */; };
 		C3D75B0E1DF15200003B7396 /* JQKTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75B0D1DF15200003B7396 /* JQKTimeLineModel.m */; };
+		C3D886071E07B3CB00E109D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D886061E07B3CB00E109D4 /* CoreData.framework */; };
 		C531B82E1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B82D1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m */; };
 		C531B8311DD1753900B058A7 /* FindTrendPassWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B8301DD1753900B058A7 /* FindTrendPassWordController.m */; };
 		C531B8371DD19CD900B058A7 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531B8361DD19CD900B058A7 /* RegistViewController.m */; };
@@ -229,6 +230,7 @@
 		C3D75B0A1DF14FD7003B7396 /* fiveData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fiveData.plist; sourceTree = "<group>"; };
 		C3D75B0C1DF15200003B7396 /* JQKTimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKTimeLineModel.h; sourceTree = "<group>"; };
 		C3D75B0D1DF15200003B7396 /* JQKTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKTimeLineModel.m; sourceTree = "<group>"; };
+		C3D886061E07B3CB00E109D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C531B82C1DD15F3A00B058A7 /* ForgetTradePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetTradePasswordViewController.h; sourceTree = "<group>"; };
 		C531B82D1DD15F3A00B058A7 /* ForgetTradePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetTradePasswordViewController.m; sourceTree = "<group>"; };
 		C531B82F1DD1753900B058A7 /* FindTrendPassWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTrendPassWordController.h; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D886071E07B3CB00E109D4 /* CoreData.framework in Frameworks */,
 				C3381BBB1E012B8A00CD5114 /* libsqlite3.0.tbd in Frameworks */,
 				C3381BB61E01299900CD5114 /* libsqlite3.tbd in Frameworks */,
 				C5D230051DCB0D1A001A867D /* libz.tbd in Frameworks */,
@@ -425,6 +428,7 @@
 		5F37B15C3DB4E7ADEBBCD1CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3D886061E07B3CB00E109D4 /* CoreData.framework */,
 				C3381BBA1E012B8A00CD5114 /* libsqlite3.0.tbd */,
 				C3381BB51E01299900CD5114 /* libsqlite3.tbd */,
 				C5D230041DCB0D1A001A867D /* libz.tbd */,
@@ -1105,6 +1109,7 @@
 					C53EF72A1DC83BEA0049FC4B = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 56C9242NWP;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					C53EF7431DC83BEA0049FC4B = {
@@ -1232,7 +1237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1459,6 +1464,7 @@
 			baseConfigurationReference = 5E32C0941672F18D2FEA79FD /* Pods-BYMFinancing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 56C9242NWP;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BYMFinancing/BYMCodes/AllDefinition/BYMPrefixHeader.pch";
@@ -1473,6 +1479,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1481,6 +1489,7 @@
 			baseConfigurationReference = 783BAFDCF064AA5296FF046F /* Pods-BYMFinancing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 56C9242NWP;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BYMFinancing/BYMCodes/AllDefinition/BYMPrefixHeader.pch";
@@ -1495,6 +1504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

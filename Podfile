@@ -7,5 +7,7 @@ pod "JSONModel"
 pod "MBProgressHUD"
 pod "MJRefresh"
 pod "SDCycleScrollView"
+pod 'FMDB'
+
 
 end 

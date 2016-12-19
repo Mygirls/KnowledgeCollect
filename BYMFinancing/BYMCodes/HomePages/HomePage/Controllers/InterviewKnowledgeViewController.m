@@ -9,6 +9,8 @@
 #import "InterviewKnowledgeViewController.h"
 #import "JQSQLManager.h"
 #import "JQSqliteStudent.h"
+
+
 @interface InterviewKnowledgeViewController ()
 
 @end
@@ -28,110 +30,21 @@
     
     [self openDatabase];
     
-    [self test01];
-    
-    [self test02];
-    
-    [self test03];
-    
-    [self test04];
+    [self setUpFMDB];
 }
 
-- (void)test01
-{
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 100, 160, 40);
-    [button setTitle:@"insert" forState:UIControlStateNormal];
-    button.backgroundColor = [UIColor grayColor];
-    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(insert:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-}
-
-- (void)insert:(UIButton *)btn
-{
-    JQSqliteStudent *stu = [[JQSqliteStudent alloc]initWithName:@"ZiCheng" andAge:20 andPhone:@"13751755081" andID:0];
+- (void)setUpFMDB {
     
-    BOOL isSuccess = [JQSQLManager addStudent:stu];
-    if (isSuccess) {
-        NSLog(@"成功");
-        
-    } else {
-        NSLog(@"失败");
-    }
-
-}
-
-- (void)test02
-{
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 150, 160, 40);
-    [button setTitle:@"select" forState:UIControlStateNormal];
-    button.backgroundColor = [UIColor grayColor];
-    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(select:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-}
-
-- (void)select:(UIButton *)btn
-{
-    NSArray *array = [JQSQLManager findAllStudent];
-    for (JQSqliteStudent *stu in array) {
-        
-        NSLog(@"姓名:%@ 手机号:%@ ID:%d 年龄:%d", stu.name, stu.phone, stu.ID, stu.age);
-    }
+    //注意：这里创建数据库，并不会打开数据库，和SQLite有点区别
+    NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES).firstObject;
+    NSString *filePath = [path stringByAppendingPathComponent:@"FMDB.db"];
+    FMDatabase *database = [FMDatabase databaseWithPath:filePath];
     
 }
 
-- (void)test03
-{
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 150, 160, 40);
-    [button setTitle:@"update" forState:UIControlStateNormal];
-    button.backgroundColor = [UIColor grayColor];
-    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(update:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-}
 
-- (void)update:(UIButton *)btn
-{
-    BOOL isSuccess = [JQSQLManager updateStudentName:@"sam" andAge:12 andPhone:@"13014452362" WhereIDIsEqual:1];
-    if (isSuccess) {
-        
-        NSLog(@"修改成功");
-    } else {
-        
-        NSLog(@"修改失败");
-    }
-    
-}
 
-- (void)test04
-{
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 150, 160, 40);
-    [button setTitle:@"delete" forState:UIControlStateNormal];
-    button.backgroundColor = [UIColor grayColor];
-    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(delete:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-}
-
-- (void)delete:(UIButton *)btn
-{
-    
-    BOOL isSuccess = [JQSQLManager deleteByID:1];
-    if (isSuccess) {
-        
-        NSLog(@"删除成功");
-    } else {
-        
-        NSLog(@"删除失败");
-    }
-    
-}
-
+#pragma mark - 路径
 - (void)readPaths{
 
     //虽然沙盒中有这么多文件夹，但是没有文件夹都不尽相同，都有各自的特性。所以在选择存放目录时，一定要认真选择适合的目录。“应用程序包”: 这里面存放的是应用程序的源文件，包括资源文件和可执行文件。
@@ -151,6 +64,8 @@
     NSString *path4 = NSTemporaryDirectory();
     NSLog(@"path4 = %@", path4);
 }
+
+#pragma mark - plist
 
 - (void)readPlistFile{
     //plist文件是将某些特定的类，通过XML文件的方式保存在目录中。
@@ -198,12 +113,112 @@
 
 //数据库：需要添加库文件：libsqlite3.dylib并导入主头文件
 - (void)openDatabase {
-   
+    [self test01];
+    
+    [self test02];
+    
+    [self test03];
+    
+    [self test04];
+
 
 }
 
+#pragma mark - sqlite
+- (void)test01
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 100, 160, 40);
+    [button setTitle:@"insert" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(insert:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
 
+- (void)insert:(UIButton *)btn
+{
+    JQSqliteStudent *stu = [[JQSqliteStudent alloc]initWithName:@"ZiCheng" andAge:20 andPhone:@"13751755081" andID:0];
+    
+    BOOL isSuccess = [JQSQLManager addStudent:stu];
+    if (isSuccess) {
+        NSLog(@"成功");
+        
+    } else {
+        NSLog(@"失败");
+    }
+    
+}
 
+- (void)test02
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 150, 160, 40);
+    [button setTitle:@"select" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(select:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)select:(UIButton *)btn
+{
+    NSArray *array = [JQSQLManager findAllStudent];
+    for (JQSqliteStudent *stu in array) {
+        
+        NSLog(@"姓名:%@ 手机号:%@ ID:%d 年龄:%d", stu.name, stu.phone, stu.ID, stu.age);
+    }
+    
+}
+
+- (void)test03
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 200, 160, 40);
+    [button setTitle:@"update" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(update:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)update:(UIButton *)btn
+{
+    BOOL isSuccess = [JQSQLManager updateStudentName:@"sam" andAge:12 andPhone:@"13014452362" WhereIDIsEqual:1];
+    if (isSuccess) {
+        
+        NSLog(@"修改成功");
+    } else {
+        
+        NSLog(@"修改失败");
+    }
+    
+}
+
+- (void)test04
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 250, 160, 40);
+    [button setTitle:@"delete" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(delete:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)delete:(UIButton *)btn
+{
+    
+    BOOL isSuccess = [JQSQLManager deleteByID:1];
+    if (isSuccess) {
+        
+        NSLog(@"删除成功");
+    } else {
+        
+        NSLog(@"删除失败");
+    }
+    
+}
 
 
 

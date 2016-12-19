@@ -6,6 +6,8 @@
 //  Copyright © 2016年 mac. All rights reserved.
 //
 //http://www.jianshu.com/p/b70e127497dc
+
+//http://www.cnblogs.com/pp123/p/4814553.html
 #import "JQSQLManager.h"
 #import <sqlite3.h>
 
