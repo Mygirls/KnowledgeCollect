@@ -13,6 +13,8 @@
 		C3381BB91E012ABC00CD5114 /* JQSQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3381BB81E012ABC00CD5114 /* JQSQLManager.m */; };
 		C3381BBB1E012B8A00CD5114 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C3381BBA1E012B8A00CD5114 /* libsqlite3.0.tbd */; };
 		C3381BBE1E01343700CD5114 /* JQSqliteStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = C3381BBD1E01343700CD5114 /* JQSqliteStudent.m */; };
+		C34BA45B1E08CB5700762BD4 /* JQFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C34BA45A1E08CB5700762BD4 /* JQFMDBManager.m */; };
+		C34BA45E1E08CF0F00762BD4 /* JQFMDBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C34BA45D1E08CF0F00762BD4 /* JQFMDBPerson.m */; };
 		C352591C1DF7B62D0051ADA3 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C352591B1DF7B62D0051ADA3 /* TestView.m */; };
 		C3592B341DCADA7B00D73D43 /* UILabel+LXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B331DCADA7B00D73D43 /* UILabel+LXAdd.m */; };
 		C3592B371DCADB2B00D73D43 /* UILabel+BYM.m in Sources */ = {isa = PBXBuildFile; fileRef = C3592B361DCADB2B00D73D43 /* UILabel+BYM.m */; };
@@ -162,6 +164,10 @@
 		C3381BBA1E012B8A00CD5114 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		C3381BBC1E01343700CD5114 /* JQSqliteStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQSqliteStudent.h; sourceTree = "<group>"; };
 		C3381BBD1E01343700CD5114 /* JQSqliteStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQSqliteStudent.m; sourceTree = "<group>"; };
+		C34BA4591E08CB5700762BD4 /* JQFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFMDBManager.h; sourceTree = "<group>"; };
+		C34BA45A1E08CB5700762BD4 /* JQFMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFMDBManager.m; sourceTree = "<group>"; };
+		C34BA45C1E08CF0F00762BD4 /* JQFMDBPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFMDBPerson.h; sourceTree = "<group>"; };
+		C34BA45D1E08CF0F00762BD4 /* JQFMDBPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFMDBPerson.m; sourceTree = "<group>"; };
 		C352591A1DF7B62D0051ADA3 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		C352591B1DF7B62D0051ADA3 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		C3592B321DCADA7B00D73D43 /* UILabel+LXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXAdd.h"; sourceTree = "<group>"; };
@@ -451,6 +457,10 @@
 				C3381BB81E012ABC00CD5114 /* JQSQLManager.m */,
 				C3381BBC1E01343700CD5114 /* JQSqliteStudent.h */,
 				C3381BBD1E01343700CD5114 /* JQSqliteStudent.m */,
+				C34BA4591E08CB5700762BD4 /* JQFMDBManager.h */,
+				C34BA45A1E08CB5700762BD4 /* JQFMDBManager.m */,
+				C34BA45C1E08CF0F00762BD4 /* JQFMDBPerson.h */,
+				C34BA45D1E08CF0F00762BD4 /* JQFMDBPerson.m */,
 			);
 			path = InterviewKnowledgeDemo;
 			sourceTree = "<group>";
@@ -1272,6 +1282,7 @@
 				C5D22FEF1DCB0AA7001A867D /* ReadMe.md in Sources */,
 				C35AF3301DFFE77F00BE0CE6 /* InterviewKnowledgeViewController.m in Sources */,
 				C531B8431DD1ABF100B058A7 /* MyGradeHeadView.m in Sources */,
+				C34BA45E1E08CF0F00762BD4 /* JQFMDBPerson.m in Sources */,
 				C54B40E41DD06A29005160ED /* MyInvestViewController.m in Sources */,
 				C53C92931DC9C1C5001325C0 /* SystemNoticeViewController.m in Sources */,
 				C39F7E711DF01E430080AC3D /* JQKTimeLineView.m in Sources */,
@@ -1314,6 +1325,7 @@
 				C53EF7881DC866AF0049FC4B /* BYMTabBar.m in Sources */,
 				C3592B341DCADA7B00D73D43 /* UILabel+LXAdd.m in Sources */,
 				C37DC65A1DEE749F003424D6 /* MJQQRCodeScanCamera.m in Sources */,
+				C34BA45B1E08CB5700762BD4 /* JQFMDBManager.m in Sources */,
 				C37DC65E1DEE749F003424D6 /* QRViewController.m in Sources */,
 				C53EF7301DC83BEA0049FC4B /* main.m in Sources */,
 				C54B40E81DD06A38005160ED /* MyInvestHeadView.m in Sources */,

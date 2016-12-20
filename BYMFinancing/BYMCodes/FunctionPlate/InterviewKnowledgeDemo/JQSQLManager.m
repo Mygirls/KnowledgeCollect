@@ -17,19 +17,6 @@ static sqlite3 *db = nil;
 @implementation JQSQLManager
 
 
-
-//生成路径
-- (NSString *)path{
-    
-    NSArray *documentArr = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    
-    NSString *documentPath = [documentArr firstObject];
-    // crylown.db 为数据库的名字
-    NSString *path = [NSString stringWithFormat:@"%@/crylown.db",documentPath];
-    
-    return path;
-}
-
 // 封装打开数据库的方法
 +(sqlite3 *)openDB {
     

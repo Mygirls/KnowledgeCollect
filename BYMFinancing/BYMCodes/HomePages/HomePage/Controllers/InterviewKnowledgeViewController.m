@@ -4,13 +4,17 @@
 //
 //  Created by administrator on 2016/12/13.
 //  Copyright © 2016年 mac. All rights reserved.
-//  MesaSQLite数据库的简单使用方法
-//  http://www.cnblogs.com/ChinaKingKong/p/4740912.html
+
+//    MesaSQLite数据库的简单使用方法《查看数据库》
+//    http://www.cnblogs.com/ChinaKingKong/p/4740912.html
+//    http://blog.csdn.net/zhi_sheng/article/details/51275758
+
 #import "InterviewKnowledgeViewController.h"
 #import "JQSQLManager.h"
 #import "JQSqliteStudent.h"
 
-
+#import "JQFMDBManager.h"
+#import "JQFMDBPerson.h"
 @interface InterviewKnowledgeViewController ()
 
 @end
@@ -33,20 +37,111 @@
     [self setUpFMDB];
 }
 
+#pragma mark - FMDB
 - (void)setUpFMDB {
     
-    //注意：这里创建数据库，并不会打开数据库，和SQLite有点区别
-    NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES).firstObject;
-    NSString *filePath = [path stringByAppendingPathComponent:@"FMDB.db"];
-    FMDatabase *database = [FMDatabase databaseWithPath:filePath];
+    UILabel *fmdbLabel = [[UILabel alloc]initWithFrame:CGRectMake(170, 64, 160, 20)];
+    fmdbLabel.text = @"fmdb";
+    fmdbLabel.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:fmdbLabel];
     
+    [self fmdbtest01];
+    [self fmdbtest02];
+    [self fmdbtest03];
+    [self fmdbtest04];
+
+}
+
+
+- (void)fmdbtest01
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(170, 100, 150, 40);
+    [button setTitle:@"insert" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(fmdbInsert:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)fmdbInsert:(UIButton *)btn
+{
+    JQFMDBPerson *person = [[JQFMDBPerson alloc] init];
+    person.name = @"zhangsan";
+    person.phone = @"123145";
+    [[JQFMDBManager sharedDataBase] addPerson:person];
+    NSArray *data  = [[JQFMDBManager sharedDataBase] getAllPerson];
+    NSLog(@"%@",data);
+}
+
+- (void)fmdbtest02
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(170, 150, 150, 40);
+    [button setTitle:@"select" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(fmdbSelect:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)fmdbSelect:(UIButton *)btn
+{
+    NSArray *data  = [[JQFMDBManager sharedDataBase] getAllPerson];
+    NSLog(@"%@",data);
+    for (JQFMDBPerson *stu in data) {
+        NSLog(@"姓名:%@ 手机号:%@ ID:%d", stu.name, stu.phone, stu.ID);
+    }
+    
+}
+
+- (void)fmdbtest03
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(170, 200, 150, 40);
+    [button setTitle:@"update" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(fmdbUpdate:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)fmdbUpdate:(UIButton *)btn
+{
+    [[JQFMDBManager sharedDataBase] updateStudentName:@"77" andPhone:@"123145" WhereIDIsEqual:2];
+    
+    NSArray *data  = [[JQFMDBManager sharedDataBase] getAllPerson];
+    NSLog(@"%@",data);
+    for (JQFMDBPerson *stu in data) {
+        NSLog(@"姓名:%@ 手机号:%@ ID:%d", stu.name, stu.phone, stu.ID);
+    }
+}
+
+- (void)fmdbtest04
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(170, 250, 150, 40);
+    [button setTitle:@"delete" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(fmdbDelete:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)fmdbDelete:(UIButton *)btn
+{
+    [[JQFMDBManager sharedDataBase] deleteByID:3];
+    NSArray *data  = [[JQFMDBManager sharedDataBase] getAllPerson];
+    NSLog(@"%@",data);
+    for (JQFMDBPerson *stu in data) {
+        NSLog(@"姓名:%@ 手机号:%@ ID:%d", stu.name, stu.phone, stu.ID);
+    }
 }
 
 
 
 #pragma mark - 路径
 - (void)readPaths{
-
     //虽然沙盒中有这么多文件夹，但是没有文件夹都不尽相同，都有各自的特性。所以在选择存放目录时，一定要认真选择适合的目录。“应用程序包”: 这里面存放的是应用程序的源文件，包括资源文件和可执行文件。
     NSString *path1 = [[NSBundle mainBundle] bundlePath];
     NSLog(@"path1 = %@",path1);
@@ -100,7 +195,7 @@
     BOOL isExit = [fileMger fileExistsAtPath:testFirst];
     
     if (isExit) {
-        NSError *err;
+        //NSError *err;
         //[fileMger removeItemAtPath:testFirst error:&err];
     }
     
@@ -113,6 +208,13 @@
 
 //数据库：需要添加库文件：libsqlite3.dylib并导入主头文件
 - (void)openDatabase {
+    
+    UILabel *sqliteLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 64, 160, 20)];
+    sqliteLabel.text = @"sqlite";
+    sqliteLabel.backgroundColor = [UIColor orangeColor];
+
+    [self.view addSubview:sqliteLabel];
+    
     [self test01];
     
     [self test02];
@@ -124,11 +226,13 @@
 
 }
 
+
+
 #pragma mark - sqlite
 - (void)test01
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 100, 160, 40);
+    button.frame = CGRectMake(10, 100, 150, 40);
     [button setTitle:@"insert" forState:UIControlStateNormal];
     button.backgroundColor = [UIColor grayColor];
     [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -153,7 +257,7 @@
 - (void)test02
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 150, 160, 40);
+    button.frame = CGRectMake(10, 150, 150, 40);
     [button setTitle:@"select" forState:UIControlStateNormal];
     button.backgroundColor = [UIColor grayColor];
     [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -174,7 +278,7 @@
 - (void)test03
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 200, 160, 40);
+    button.frame = CGRectMake(10, 200, 150, 40);
     [button setTitle:@"update" forState:UIControlStateNormal];
     button.backgroundColor = [UIColor grayColor];
     [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -198,7 +302,7 @@
 - (void)test04
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 250, 160, 40);
+    button.frame = CGRectMake(10, 250, 150, 40);
     [button setTitle:@"delete" forState:UIControlStateNormal];
     button.backgroundColor = [UIColor grayColor];
     [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
