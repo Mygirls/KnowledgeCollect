@@ -99,6 +99,7 @@
     //KVO 更新最大值最小值-价格
     JQKTimeLineModel *model = (JQKTimeLineModel *)self.drawLineModels.firstObject;
     CGFloat average = [model AvgPrice];
+
     maxValue = [[self.drawLineModels valueForKeyPath:@"Price.@max.floatValue"] floatValue];
     minValue = [[self.drawLineModels valueForKeyPath:@"Price.@min.floatValue"] floatValue];
     if (ABS(maxValue - average) > ABS(average - minValue)) {

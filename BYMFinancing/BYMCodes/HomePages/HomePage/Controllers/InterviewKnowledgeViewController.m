@@ -15,8 +15,14 @@
 
 #import "JQFMDBManager.h"
 #import "JQFMDBPerson.h"
-@interface InterviewKnowledgeViewController ()
 
+#import "JQVolumeUtil.h"
+#import <MediaPlayer/MediaPlayer.h>
+
+@interface InterviewKnowledgeViewController ()
+{
+    float _i;
+}
 @end
 
 @implementation InterviewKnowledgeViewController
@@ -35,12 +41,99 @@
     [self openDatabase];
     
     [self setUpFMDB];
+    
+//    [self GCDInfoTest01];
+//    [self GCDInfoTest02];
+//    [self GCDInfoTest03];
+    
+    [self volumeVedioDemo];
+}
+
+
+
+
+
+- (void)volumeVedioDemo {
+    
+    _i = 0;
+    [[JQVolumeUtil shareInstance] registerVolumeChangeEvent];
+
+    [[JQVolumeUtil shareInstance] loadMPVolumeView];
+    [[JQVolumeUtil shareInstance] setSliderVolumeValue:0.2];
+
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(170, 100, 150, 40);
+    [button setTitle:@"insert" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(addValume:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+
+- (void)addValume:(UIButton *)button
+{
+    _i = _i + 0.0625;
+    [[JQVolumeUtil shareInstance] setSliderVolumeValue:_i];
+
+}
+#pragma mark - GCD
+- (void)GCDInfoTest01 {
+//首先执行任务1，这是肯定没问题的，只是接下来，程序遇到了同步线程，那么它会进入等待，等待任务2执行完，然后执行任务3。但这是队列，有任务来，当然会将任务加到队尾，然后遵循FIFO原则执行任务。那么，现在任务2就会被加到最后，任务3排在了任务2前面
+    
+//    任务3要等任务2执行完才能执行，任务2由排在任务3后面，意味着任务2要在任务3执行完才能执行，所以他们进入了互相等待的局面。【既然这样，那干脆就卡在这里吧】这就是死锁。
+    NSLog(@"1"); // 任务1
+    
+    dispatch_sync(dispatch_get_main_queue(), ^{
+        
+        NSLog(@"2"); // 任务2
+        
+    });
+    
+    NSLog(@"3"); // 任务3
+}
+
+- (void)GCDInfoTest02 {
+    NSLog(@"1"); // 任务1
+    
+    dispatch_sync(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+        
+        NSLog(@"2"); // 任务2
+        
+    });
+    
+    NSLog(@"3"); // 任务3
+    
+    //输出结果： 1  2  3
+}
+
+- (void)GCDInfoTest03 {
+    //串行队列
+    dispatch_queue_t queue = dispatch_queue_create("com.demo.serialQueue", DISPATCH_QUEUE_SERIAL);
+    
+    NSLog(@"1"); // 任务1
+    
+    dispatch_async(queue, ^{
+        
+        NSLog(@"2"); // 任务2
+        
+        dispatch_sync(queue, ^{
+            
+            NSLog(@"3"); // 任务3
+            
+        });
+        
+        NSLog(@"4"); // 任务4
+        
+    });
+    
+    NSLog(@"5"); // 任务5
 }
 
 #pragma mark - FMDB
 - (void)setUpFMDB {
     
-    UILabel *fmdbLabel = [[UILabel alloc]initWithFrame:CGRectMake(170, 64, 160, 20)];
+    UILabel *fmdbLabel = [[UILabel alloc]initWithFrame:CGRectMake(170, 64, 150, 20)];
     fmdbLabel.text = @"fmdb";
     fmdbLabel.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:fmdbLabel];
@@ -209,7 +302,7 @@
 //数据库：需要添加库文件：libsqlite3.dylib并导入主头文件
 - (void)openDatabase {
     
-    UILabel *sqliteLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 64, 160, 20)];
+    UILabel *sqliteLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 64, 150, 20)];
     sqliteLabel.text = @"sqlite";
     sqliteLabel.backgroundColor = [UIColor orangeColor];
 
@@ -326,24 +419,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - (NSString *)md5:(NSString*)origString
 {
     const char *original_str = [origString UTF8String];
@@ -401,9 +476,15 @@
  XIB：需求变动时，需要修改XIB很大，有时候甚至需要重新添加约束，导致开发周期变长。XIB载入相比纯代码自然要慢一些。对于比较复杂逻辑控制不同状态下显示不同内容时，使用XIB是比较困难的。当多人团队或者多团队开发时，如果XIB文件被发动，极易导致冲突，而且解决冲突相对要困难很多。
  Storyboard：需求变动时，需要修改storyboard上对应的界面的约束，与XIB一样可能要重新添加约束，或者添加约束会造成大量的冲突，尤其是多团队开发。对于复杂逻辑控制不同显示内容时，比较困难。当多人团队或者多团队开发时，大家会同时修改一个storyboard，导致大量冲突，解决起来相当困难。
 
+ 
+
  Xcode 8 Instruments 学习（一）
  http://www.jianshu.com/p/92cd90e65d4c
  */
 
+#pragma mark - Xcode 8 Instruments 学习（一)
+//http://www.jianshu.com/p/92cd90e65d4c
 
+#pragma mark - AFNetworking
+//http://www.cocoachina.com/ios/20161209/18277.html
 @end

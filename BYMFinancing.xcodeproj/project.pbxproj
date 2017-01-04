@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1B3497F184B4FD8034158932 /* libPods-BYMFinancing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0A677752F94E10D8E90CB7 /* libPods-BYMFinancing.a */; };
+		C32DA91A1E12361500B55531 /* NTImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C32DA9191E12361500B55531 /* NTImageBrowser.m */; };
+		C32FE4001E0B7DD6003F66D7 /* order_cancel_succeed_noti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C32FE3FF1E0B7DD6003F66D7 /* order_cancel_succeed_noti.mp3 */; };
+		C32FE4041E0B7E7E003F66D7 /* JQVolumeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FE4031E0B7E7E003F66D7 /* JQVolumeUtil.m */; };
 		C3381BB41E011E4600CD5114 /* testFitst.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3381BB31E011E4600CD5114 /* testFitst.plist */; };
 		C3381BB61E01299900CD5114 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C3381BB51E01299900CD5114 /* libsqlite3.tbd */; };
 		C3381BB91E012ABC00CD5114 /* JQSQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3381BB81E012ABC00CD5114 /* JQSQLManager.m */; };
@@ -46,6 +49,7 @@
 		C39F7E711DF01E430080AC3D /* JQKTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F7E701DF01E430080AC3D /* JQKTimeLineView.m */; };
 		C3A163471E02244F00BCBE9D /* git的操作.pages in Resources */ = {isa = PBXBuildFile; fileRef = C3A163461E02244F00BCBE9D /* git的操作.pages */; };
 		C3B7F3B71DF176CB0031843A /* JQKLinePartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7F3B61DF176CB0031843A /* JQKLinePartLineView.m */; };
+		C3CEDD671E10EBE00030D78C /* AppStoreKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CEDD661E10EBE00030D78C /* AppStoreKitViewController.m */; };
 		C3D75AF81DF10E5D003B7396 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AF71DF10E5D003B7396 /* KVCViewController.m */; };
 		C3D75AFC1DF11005003B7396 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AFB1DF11005003B7396 /* Student.m */; };
 		C3D75AFF1DF11238003B7396 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D75AFE1DF11238003B7396 /* Course.m */; };
@@ -157,6 +161,11 @@
 		0F0A677752F94E10D8E90CB7 /* libPods-BYMFinancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BYMFinancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32C0941672F18D2FEA79FD /* Pods-BYMFinancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYMFinancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYMFinancing/Pods-BYMFinancing.debug.xcconfig"; sourceTree = "<group>"; };
 		783BAFDCF064AA5296FF046F /* Pods-BYMFinancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYMFinancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYMFinancing/Pods-BYMFinancing.release.xcconfig"; sourceTree = "<group>"; };
+		C32DA9181E12361500B55531 /* NTImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTImageBrowser.h; sourceTree = "<group>"; };
+		C32DA9191E12361500B55531 /* NTImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTImageBrowser.m; sourceTree = "<group>"; };
+		C32FE3FF1E0B7DD6003F66D7 /* order_cancel_succeed_noti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = order_cancel_succeed_noti.mp3; sourceTree = "<group>"; };
+		C32FE4021E0B7E7E003F66D7 /* JQVolumeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQVolumeUtil.h; sourceTree = "<group>"; };
+		C32FE4031E0B7E7E003F66D7 /* JQVolumeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQVolumeUtil.m; sourceTree = "<group>"; };
 		C3381BB31E011E4600CD5114 /* testFitst.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = testFitst.plist; sourceTree = "<group>"; };
 		C3381BB51E01299900CD5114 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C3381BB71E012ABC00CD5114 /* JQSQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQSQLManager.h; sourceTree = "<group>"; };
@@ -222,6 +231,8 @@
 		C3A163461E02244F00BCBE9D /* git的操作.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "git的操作.pages"; sourceTree = "<group>"; };
 		C3B7F3B51DF176CB0031843A /* JQKLinePartLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQKLinePartLineView.h; sourceTree = "<group>"; };
 		C3B7F3B61DF176CB0031843A /* JQKLinePartLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQKLinePartLineView.m; sourceTree = "<group>"; };
+		C3CEDD651E10EBE00030D78C /* AppStoreKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStoreKitViewController.h; sourceTree = "<group>"; };
+		C3CEDD661E10EBE00030D78C /* AppStoreKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreKitViewController.m; sourceTree = "<group>"; };
 		C3D75AF61DF10E5D003B7396 /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
 		C3D75AF71DF10E5D003B7396 /* KVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
 		C3D75AFA1DF11005003B7396 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -449,9 +460,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C32FE4011E0B7E2C003F66D7 /* VedioMusicInfoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C32FE4021E0B7E7E003F66D7 /* JQVolumeUtil.h */,
+				C32FE4031E0B7E7E003F66D7 /* JQVolumeUtil.m */,
+			);
+			path = VedioMusicInfoDemo;
+			sourceTree = "<group>";
+		};
 		C3381BB21E011E1F00CD5114 /* InterviewKnowledgeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C32FE3FF1E0B7DD6003F66D7 /* order_cancel_succeed_noti.mp3 */,
 				C3381BB31E011E4600CD5114 /* testFitst.plist */,
 				C3381BB71E012ABC00CD5114 /* JQSQLManager.h */,
 				C3381BB81E012ABC00CD5114 /* JQSQLManager.m */,
@@ -461,6 +482,8 @@
 				C34BA45A1E08CB5700762BD4 /* JQFMDBManager.m */,
 				C34BA45C1E08CF0F00762BD4 /* JQFMDBPerson.h */,
 				C34BA45D1E08CF0F00762BD4 /* JQFMDBPerson.m */,
+				C3CEDD651E10EBE00030D78C /* AppStoreKitViewController.h */,
+				C3CEDD661E10EBE00030D78C /* AppStoreKitViewController.m */,
 			);
 			path = InterviewKnowledgeDemo;
 			sourceTree = "<group>";
@@ -488,6 +511,9 @@
 			isa = PBXGroup;
 			children = (
 				C3A163461E02244F00BCBE9D /* git的操作.pages */,
+				C32DA9181E12361500B55531 /* NTImageBrowser.h */,
+				C32DA9191E12361500B55531 /* NTImageBrowser.m */,
+				C32FE4011E0B7E2C003F66D7 /* VedioMusicInfoDemo */,
 				C3381BB21E011E1F00CD5114 /* InterviewKnowledgeDemo */,
 				C3D75AF91DF10ED3003B7396 /* KVCOrKVODemo */,
 				C39F7E681DF002C90080AC3D /* KLineDemo */,
@@ -1168,6 +1194,7 @@
 				C37DC6511DEE749F003424D6 /* faces1.png in Resources */,
 				C3381BB41E011E4600CD5114 /* testFitst.plist in Resources */,
 				C53C92331DC976AB001325C0 /* navigationBg.png in Resources */,
+				C32FE4001E0B7DD6003F66D7 /* order_cancel_succeed_noti.mp3 in Resources */,
 				C37DC6541DEE749F003424D6 /* faces4.jpg in Resources */,
 				C3D75B011DF14C99003B7396 /* KLindeFiveDataSource.json in Resources */,
 				C37DC6551DEE749F003424D6 /* faces5.jpg in Resources */,
@@ -1296,6 +1323,7 @@
 				C53C92311DC97449001325C0 /* BYMBaseViewController.m in Sources */,
 				C53C92561DC99859001325C0 /* HomebottomView.m in Sources */,
 				C37DC65C1DEE749F003424D6 /* QRMenu.m in Sources */,
+				C3CEDD671E10EBE00030D78C /* AppStoreKitViewController.m in Sources */,
 				C37DC6591DEE749F003424D6 /* MJQQRCodeGenerate.m in Sources */,
 				C537CEBF1DCC313200DCCFAE /* InviteViewController.m in Sources */,
 				C3592B401DCB08EF00D73D43 /* UINavigationBar+BackgroundColor.m in Sources */,
@@ -1310,11 +1338,13 @@
 				C3381BB91E012ABC00CD5114 /* JQSQLManager.m in Sources */,
 				C537CEBC1DCC2D5400DCCFAE /* HomeSignViewController.m in Sources */,
 				C531B8311DD1753900B058A7 /* FindTrendPassWordController.m in Sources */,
+				C32DA91A1E12361500B55531 /* NTImageBrowser.m in Sources */,
 				C3D75AF81DF10E5D003B7396 /* KVCViewController.m in Sources */,
 				C537CEC61DCC5AFD00DCCFAE /* BYMBaseTextField.m in Sources */,
 				C53EF7851DC866370049FC4B /* BYMTabBarController.m in Sources */,
 				C54B40F21DD06C2D005160ED /* UIView+UIViewController.m in Sources */,
 				C53C92501DC992D5001325C0 /* BYMBaseLabel.m in Sources */,
+				C32FE4041E0B7E7E003F66D7 /* JQVolumeUtil.m in Sources */,
 				C53C92991DC9C25B001325C0 /* SystemNoticeModel.m in Sources */,
 				C531B8371DD19CD900B058A7 /* RegistViewController.m in Sources */,
 				C37DC6681DEECFCE003424D6 /* KLineViewController.m in Sources */,

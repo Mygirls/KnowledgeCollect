@@ -12,6 +12,8 @@
 #import "KVCViewController.h"
 #import "TestView.h"
 #import "InterviewKnowledgeViewController.h"
+#import "AppStoreKitViewController.h"
+
 @interface TotTopicRecommendViewController ()
 
 @property(nonatomic,strong)TestView *testView;
@@ -33,6 +35,7 @@
     [self KLineView];
     [self KVCView];
     [self test];
+    [self AppStoreKitViewControllerTest];
     
     [self InterviewKnowledgeViewController];
     NSURL *url = [NSURL URLWithString:@"http://www.baidu.com/search?id=1//"];
@@ -147,4 +150,24 @@
     [self.navigationController pushViewController:kvcVC animated:YES];
     
 }
+
+- (void)AppStoreKitViewControllerTest
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 350, 160, 40);
+    [button setTitle:@"内购" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(AppStoreKit:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)AppStoreKit:(UIButton *)btn
+{
+    
+    AppStoreKitViewController *kvcVC = [[AppStoreKitViewController alloc]init];
+    [self.navigationController pushViewController:kvcVC animated:YES];
+    
+}
+
 @end

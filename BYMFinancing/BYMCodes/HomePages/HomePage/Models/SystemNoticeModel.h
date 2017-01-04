@@ -7,7 +7,9 @@
 //
 
 #import "BYMBaseModel.h"
-
+/**
+ *  jsonModel 的使用：
+ */
 @class ListModel;
 
 @protocol ListModel;//官方是这么写的 不需要@end
