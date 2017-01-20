@@ -13,7 +13,7 @@
 
 /*
  * 将实现细节封装为一个类方法
- *
+ * 点击图片放大 再点击 图片缩小
  * @param imageView : 需要进行图片放大的imageView
  */
 + (void)showImageBrowserWithImageView :(UIImageView *)imageView;

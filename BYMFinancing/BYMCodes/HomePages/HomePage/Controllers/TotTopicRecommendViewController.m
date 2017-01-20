@@ -13,7 +13,7 @@
 #import "TestView.h"
 #import "InterviewKnowledgeViewController.h"
 #import "AppStoreKitViewController.h"
-
+#import "AVPlayerViewController.h"
 @interface TotTopicRecommendViewController ()
 
 @property(nonatomic,strong)TestView *testView;
@@ -36,7 +36,7 @@
     [self KVCView];
     [self test];
     [self AppStoreKitViewControllerTest];
-    
+    [self AVPlayerDemo];
     [self InterviewKnowledgeViewController];
     NSURL *url = [NSURL URLWithString:@"http://www.baidu.com/search?id=1//"];
     NSLog(@"scheme:%@", [url scheme]); //协议 http
@@ -170,4 +170,23 @@
     
 }
 
+- (void)AVPlayerDemo
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 400, 160, 40);
+    [button setTitle:@"视频" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(AVPlayerDemo:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+}
+
+- (void)AVPlayerDemo:(UIButton *)btn
+{
+    
+    AVPlayerViewController *kvcVC = [[AVPlayerViewController alloc]init];
+    [self.navigationController pushViewController:kvcVC animated:YES];
+    
+}
 @end

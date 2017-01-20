@@ -70,7 +70,7 @@
     NSString *courseName = [course valueForKey:@"courseName"];
     NSLog(@"test result course.courseName：%@",courseName);
     
-    //注意：必须加上 这行代码 否则 下面输出的会为null
+    // TODO: 注意：必须加上 这行代码 否则 下面输出的会为null
     [student setValue:course forKey:@"course"];
     
     //也可以这样存储
@@ -140,7 +140,7 @@
     NSLog(@"%@", [testArray valueForKeyPath:@"@sum.floatValue"]);
 }
 
-// TODO: kvo someInfo
+// TODO: kvo someInfo 知识
 - (void)testKVO {
     
     //name 也可以
